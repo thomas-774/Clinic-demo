@@ -113,11 +113,11 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: the DB stores date-times as Cairo wall-clock strings (like MySQL in the source); `src/demo/clock.js` converts them to ISO with the Cairo offset. Rows are saved once per write request by the router, not by each helper. Besides the source's DemoSeeder data, the seed has today's evening bookings (or seen visits for slots already past) and 4 prescriptions instead of 2. Patient #1 never gets an upcoming booking, so the demo patient can book at once. The seed builds the same rows for the same moment (the PRNG is mulberry32, not PHP's mt_rand, so the rows differ from the source).
 
 ### D-03 Fake router and axios adapter
-- [ ] `src/demo/router.js`: `(method, url, params, body, headers) → { status, data, headers }` with path params, plus a helper to throw axios-style errors (`error.response.status/data`), so the existing error handling works unchanged.
-- [ ] `src/demo/adapter.js`: axios custom adapter with the fake delay; supports `responseType: 'blob'`.
-- [ ] `client.js`: use the adapter when `import.meta.env.VITE_DEMO !== 'false'` (demo on by default). Keep the token, 401 and `Accept-Language` logic.
-- [ ] Auth handlers: login, register, logout, `/me`; tokens are fake strings mapped to user ids in the DB.
-- [ ] `/health`.
+- [x] `src/demo/router.js`: `(method, url, params, body, headers) → { status, data, headers }` with path params, plus a helper to throw axios-style errors (`error.response.status/data`), so the existing error handling works unchanged.
+- [x] `src/demo/adapter.js`: axios custom adapter with the fake delay; supports `responseType: 'blob'`.
+- [x] `client.js`: use the adapter when `import.meta.env.VITE_DEMO !== 'false'` (demo on by default). Keep the token, 401 and `Accept-Language` logic.
+- [x] Auth handlers: login, register, logout, `/me`; tokens are fake strings mapped to user ids in the DB.
+- [x] `/health`.
 - **Done when:** login as each role works and `/me` returns the right user.
 
 ### D-04 Doctor: patients, history, visits, payments

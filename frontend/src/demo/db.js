@@ -60,6 +60,22 @@ export function reset() {
   return state
 }
 
+/**
+ * Runs `fn` like DB::transaction(): when it throws, every change it made is
+ * undone; when it returns, the database is saved.
+ */
+export function transaction(fn) {
+  const before = JSON.stringify(load())
+  try {
+    const result = fn()
+    save()
+    return result
+  } catch (error) {
+    state = JSON.parse(before)
+    throw error
+  }
+}
+
 /** Drops the in-memory copy, so the next load() reads storage again (tests). */
 export function unload() {
   state = null

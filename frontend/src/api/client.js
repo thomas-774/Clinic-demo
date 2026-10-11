@@ -1,5 +1,6 @@
 import axios from 'axios'
 import i18next from 'i18next'
+import { demoAdapter } from '../demo/adapter'
 
 const TOKEN_KEY = 'clinic.token'
 
@@ -38,9 +39,13 @@ export function setUnauthorizedHandler(handler) {
   onUnauthorized = handler
 }
 
+// The demo answers every request in the browser (src/demo); VITE_DEMO=false uses the real API.
+export const DEMO_MODE = import.meta.env.VITE_DEMO !== 'false'
+
 const client = axios.create({
   baseURL: import.meta.env.VITE_API_URL,
   headers: { Accept: 'application/json' },
+  ...(DEMO_MODE ? { adapter: demoAdapter } : {}),
 })
 
 client.interceptors.request.use((config) => {
