@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  /* Cairo covers Arabic and Latin, so both languages share one font.
+     Self-hosted (@fontsource-variable/cairo, OFL): no request to a third party. */
+  --font-sans: "Cairo Variable", "Cairo", ui-sans-serif, system-ui, sans-serif;
+}
+
+/*
+ * NFR-U.1: everything reached with the keyboard shows a ring (WCAG 2.4.7).
+ * Text inputs draw their own ring on focus (focus:ring-2 … -600).
+ */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-sky-700);
+    outline-offset: 2px;
+  }
+
+  /* Chromium puts the focus on a segment inside date and time fields, so the
+     field itself only matches :focus-within (found in the T11-13 audit). */
+  :is(input[type='date'], input[type='time'], input[type='month'], input[type='datetime-local']):focus-within {
+    outline: 2px solid var(--color-sky-700);
+    outline-offset: 2px;
+  }
+}
+
+/*
+ * Prescription print page (§7.3 Printing): A5 by default, A4 when the
+ * settings say so. The rx-paper-* class picks the named page; the print
+ * page puts it on <html> too, so the whole document is on that one page.
+ */
+@page rx-a5 {
+  size: A5;
+  margin: 10mm;
+}
+
+@page rx-a4 {
+  size: A4;
+  margin: 10mm;
+}
+
+.rx-paper-a5 {
+  page: rx-a5;
+}
+
+.rx-paper-a4 {
+  page: rx-a4;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff;
+    color: #000;
+  }
+}
