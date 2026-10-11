@@ -221,6 +221,54 @@ export function prescription(row) {
   }
 }
 
+/** The earliest appointment still ahead: booked or checked in, not over yet (FR-B.4). */
+export function nextAppointmentOf(patientRow, now) {
+  return (
+    db
+      .where('appointments', (a) => a.patient_id === patientRow.id && ['booked', 'checked_in'].includes(a.status) && a.end_at > now)
+      .sort((a, b) => a.start_at.localeCompare(b.start_at) || a.id - b.id)[0] ?? null
+  )
+}
+
+/** AssistantPatientResource: contact info and money only (Module I). */
+export function assistantPatient(row, now) {
+  const visits = visitsOf(row)
+  const next = nextAppointmentOf(row, now)
+  const { current_illness: _illness, ...contact } = patient(row)
+  return {
+    ...contact,
+    next_appointment: next ? appointment(next) : null,
+    visits: visits.map((v) => assistantVisit(v, { withPayments: true })),
+    outstanding_balance: payments.sumRemaining(visits),
+  }
+}
+
+/** Str::limit($text, 200) */
+const limit = (text, length) => {
+  const chars = [...text]
+  return chars.length <= length ? text : `${chars.slice(0, length).join('').trimEnd()}...`
+}
+
+/** PatientProfileResource: the patient's own page (FR-B.1 – B.4). */
+export function patientProfile(row, { now, cutoffHours }) {
+  const visits = visitsOf(row)
+  const next = nextAppointmentOf(row, now)
+  return {
+    ...patient(row),
+    simple_history: historyOf(row, (entry) => entry.patient_visible).map((entry) => ({
+      id: entry.id,
+      recorded_on: entry.recorded_on,
+      title: entry.patient_visible ? entry.title : null,
+      description: entry.patient_visible && entry.details !== null ? limit(entry.details, 200) : null,
+    })),
+    next_appointment: next ? appointment(next, { forPatient: true, cutoffHours }) : null,
+    outstanding_balance: payments.sumRemaining(visits),
+    unpaid_visits: visits
+      .filter((v) => payments.remainingPiastres(v) > 0)
+      .map((v) => ({ id: v.id, visit_date: v.visit_date, remaining: payments.remaining(v) })),
+  }
+}
+
 /** AssistantVisitResource; `withPatient` / `withPayments` follow what the endpoint loads. */
 export function assistantVisit(row, { withPatient = false, withPayments = false } = {}) {
   const out = {

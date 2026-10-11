@@ -1,3 +1,4 @@
+import * as assistantArea from './handlers/assistant'
 import * as auth from './handlers/auth'
 import * as drugs from './handlers/doctor/drugs'
 import * as doctorPatients from './handlers/doctor/patients'
@@ -5,6 +6,7 @@ import * as prescriptions from './handlers/doctor/prescriptions'
 import * as reports from './handlers/doctor/reports'
 import * as settings from './handlers/doctor/settings'
 import * as doctorVisits from './handlers/doctor/visits'
+import * as patientArea from './handlers/patient'
 import * as schedule from './handlers/schedule'
 
 /**
@@ -28,6 +30,8 @@ export const routes = [
   { method: 'GET', path: '/me', handler: auth.me },
   { method: 'GET', path: '/slots', roles: ['patient', 'doctor', 'assistant'], handler: schedule.slotList },
 
+  patient('GET', '/profile', patientArea.show),
+  patient('PATCH', '/profile', patientArea.update),
   patient('GET', '/appointments', schedule.patientIndex),
   patient('POST', '/appointments', schedule.patientBook),
   patient('PATCH', '/appointments/:appointment/cancel', schedule.patientCancel),
@@ -79,6 +83,12 @@ export const routes = [
   doctor('POST', '/blocked-times', schedule.blockedStore),
   doctor('DELETE', '/blocked-times/:blockedTime', schedule.blockedDestroy),
 
+  assistant('GET', '/patients', assistantArea.index),
+  assistant('POST', '/patients', assistantArea.store),
+  assistant('GET', '/patients/:patient', assistantArea.show),
+  assistant('PUT', '/patients/:patient', assistantArea.update),
+  assistant('GET', '/visits/unpaid', assistantArea.unpaid),
+  assistant('POST', '/visits/:visit/payments', assistantArea.storePayment),
   assistant('GET', '/appointments', schedule.staffSchedule),
   assistant('POST', '/appointments', schedule.staffBook),
   assistant('PATCH', '/appointments/:appointment/status', schedule.assistantStatus),

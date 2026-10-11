@@ -139,7 +139,8 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: reports are in `src/demo/services/reports.js` (revenue = all payments of the visits dated in the period, in piastres; visits = completed-appointment visits plus walk-ins). Audit rows come from the D-04 and D-06 handlers through `src/demo/audit.js`; the seed itself has none (like the source's DemoSeeder), so Activity starts empty until something is changed.
 
 ### D-08 Assistant and patient areas
-- [ ] Remaining assistant and patient routes; role checks (403) on every route, with a table-driven test like the source's permissions test.
+- [x] Remaining assistant and patient routes; role checks (403) on every route, with a table-driven test like the source's permissions test.
+- Note: `src/demo/permissions.test.js` walks the real route table: every /doctor, /assistant and /patient route answers 403 to the other two roles (with ids that do not exist, so the role check comes before the lookup) and 401 without a token. The visit export route joins the table in D-10.
 
 ### D-09 Role buttons and demo bar
 - [ ] Login page: three big buttons **Enter as Doctor / Patient / Assistant** (ar + en text; add keys to **both** `ar.json` and `en.json`, which must have identical keys) that log in instantly and go to that role's home page. Normal login and register still work.
