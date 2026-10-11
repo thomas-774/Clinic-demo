@@ -1,0 +1,21 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-*/
+coverage/
+
+# Local env files (the demo needs none)
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# Audit output
+a11y-audit-results.json
+mobile-audit/
+*.log

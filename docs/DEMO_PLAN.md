@@ -97,11 +97,14 @@ Store a `SEED_VERSION`; if the stored version is older, re-seed automatically.
 Do them in order. One branch and one commit per task (see `CLAUDE.md` for the workflow).
 
 ### D-01 Bring in the frontend and make it build
-- [ ] Make sure `frontend/` is a full copy of `E:\claude DR SaaS\frontend` **without** `node_modules`, `dist*`, `coverage`, `mobile-audit` output, `a11y-audit-results.json` and `.env` (as of 2026-10-11 the copy is missing `src/`, `public/` and `scripts/`).
-- [ ] Root `.gitignore` (node_modules, dist, coverage, .env, .vscode except extensions.json).
-- [ ] `npm install`, `npm run build`, and `npx vitest run` pass as in the source (expect API-dependent tests; note the baseline).
-- [ ] Root `README.md`: what the demo is, how to run it, how to deploy it.
+- [x] Make sure `frontend/` is a full copy of `E:\claude DR SaaS\frontend` **without** `node_modules`, `dist*`, `coverage`, `mobile-audit` output, `a11y-audit-results.json` and `.env` (as of 2026-10-11 the copy is missing `src/`, `public/` and `scripts/`).
+  - Note: the copy was already complete in commit `cc06df8` (all 201 files identical to the source). Only `frontend/.env` had been tracked by mistake; it is now untracked.
+- [x] Root `.gitignore` (node_modules, dist, coverage, .env, .vscode except extensions.json).
+- [x] `npm install`, `npm run build`, and `npx vitest run` pass as in the source (expect API-dependent tests; note the baseline).
+  - Note: the baseline is 45 files / 363 tests, all green (the tests mock axios, so none need the API). Three heavy form tests timed out at the default 5 s with `--maxWorkers=4`, so `testTimeout` is now 15 s in `vite.config.js`. Lint: 0 warnings, 0 errors.
+- [x] Root `README.md`: what the demo is, how to run it, how to deploy it.
 - **Done when:** the app builds, and the first commit is made on `main`.
+- Note: no new tests for D-01; nothing new to test, so the existing suite is the check.
 
 ### D-02 Fake DB layer
 - [ ] `src/demo/db.js`: `load()`, `save()`, `reset()`, `nextId(table)`, simple `find/where/insert/update/remove` helpers, in-memory fallback.
