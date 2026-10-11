@@ -169,7 +169,8 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: `vercel.json` is in `frontend/` (Root Directory `frontend`) and also sends the source's security headers (CSP `'self'`, nosniff, no-referrer, DENY, Permissions-Policy); `scripts/vercel-config.test.js` keeps them equal to `vite preview`'s (`securityHeaders` is now exported from `vite.config.js`). Checked with headless Chrome on `npm run preview`: `/doctor/patients/5` loads and survives a reload.
 
 ### D-13 Walkthrough
-- [ ] Follow `E:\claude DR SaaS\docs\walkthrough.md` in the demo: patient books → assistant checks in and takes a payment → doctor adds visit, payment and prescription → reports show it → Reset restores the seed. Both languages. Write the result in `docs/walkthrough.md` of this repo.
+- [x] Follow `E:\claude DR SaaS\docs\walkthrough.md` in the demo: patient books → assistant checks in and takes a payment → doctor adds visit, payment and prescription → reports show it → Reset restores the seed. Both languages. Write the result in `docs/walkthrough.md` of this repo.
+- Note: followed in headless Chrome on the production build, in English and Arabic, with the demo patient (results in `docs/walkthrough.md`; all numbers match). The new-patient registration and the prescription step are covered by `src/demo/walkthrough.test.js`, the automated version in both languages.
 
 ## 7. Out of scope
 - No real security: passwords and tokens are fake and visible in the browser. Say so in the README.
