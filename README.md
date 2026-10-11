@@ -40,7 +40,23 @@ The optional browser audits (`npm run a11y:audit`, `npm run mobile:audit`) build
 
 ## Deploy
 
-The site is plain static files (`frontend/dist`) and needs no environment variables. On Vercel: import the repo and set the Root Directory to `frontend`.
+The site is plain static files (`frontend/dist`) and needs no environment variables.
+
+On Vercel:
+
+1. **Add New → Project → Import** the GitHub repo.
+2. **Root Directory:** `frontend`.
+3. **Framework Preset:** Vite. **Build Command:** `npm run build`. **Output Directory:** `dist`. (These are also set in `frontend/vercel.json`.)
+4. **Deploy.**
+
+`frontend/vercel.json` sends every path to `index.html`, so deep links such as `/doctor/patients/5` work after a refresh, and sends the same security headers (CSP and the rest) as `vite preview`. To check a production build locally:
+
+```bash
+cd frontend
+npm run build && npm run preview   # http://localhost:4173
+```
+
+Setting `VITE_DEMO=false` (with `VITE_API_URL`) builds the normal app against the real API instead.
 
 ## How it works
 

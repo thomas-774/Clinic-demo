@@ -160,12 +160,13 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: nothing in the source's tests needed changing: Vitest runs them with `VITE_DEMO=false` (since D-04), so they mock axios as before, while the demo backend has its own tests (`src/demo/**`). `npm run check` (lint, contrast, coverage thresholds, build, bundle budget, npm audit) is green; coverage is 97 % of lines. The a11y and mobile audits now build with `VITE_DEMO=false` so their in-browser fixtures still answer the API (`npm run a11y:audit -- --only=login` passes). `dump-fixtures.php`, which runs only inside the Laravel app, was dropped.
 
 ### D-12 Vercel
-- [ ] `vercel.json` at the repo root (or in `frontend/`, with the Vercel root set to `frontend`):
+- [x] `vercel.json` at the repo root (or in `frontend/`, with the Vercel root set to `frontend`):
   ```json
   { "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }] }
   ```
-- [ ] README section: Vercel → Import repo → Root Directory `frontend`, Framework Vite, Build `npm run build`, Output `dist`.
-- [ ] `npm run build && npm run preview`: deep links (for example `/doctor/patients/5`) work after a refresh.
+- [x] README section: Vercel → Import repo → Root Directory `frontend`, Framework Vite, Build `npm run build`, Output `dist`.
+- [x] `npm run build && npm run preview`: deep links (for example `/doctor/patients/5`) work after a refresh.
+- Note: `vercel.json` is in `frontend/` (Root Directory `frontend`) and also sends the source's security headers (CSP `'self'`, nosniff, no-referrer, DENY, Permissions-Policy); `scripts/vercel-config.test.js` keeps them equal to `vite preview`'s (`securityHeaders` is now exported from `vite.config.js`). Checked with headless Chrome on `npm run preview`: `/doctor/patients/5` loads and survives a reload.
 
 ### D-13 Walkthrough
 - [ ] Follow `E:\claude DR SaaS\docs\walkthrough.md` in the demo: patient books → assistant checks in and takes a payment → doctor adds visit, payment and prescription → reports show it → Reset restores the seed. Both languages. Write the result in `docs/walkthrough.md` of this repo.

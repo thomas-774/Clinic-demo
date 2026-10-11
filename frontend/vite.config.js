@@ -8,7 +8,7 @@ import { defineConfig } from 'vitest/config'
  * production (T7-05), where the API is on the same origin; `vite preview` adds
  * the API's origin to connect-src so the built app can be checked locally.
  */
-function securityHeaders(apiUrl) {
+export function securityHeaders(apiUrl) {
   const api = apiUrl ? new URL(apiUrl).origin : ''
   const csp = [
     "default-src 'self'",
