@@ -1,0 +1,2514 @@
+[
+  {
+    "seed_key": "bbc-spray",
+    "trade_name": "B.B.C",
+    "form": "بخاخ spray",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "benzocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "benzydamine hydrochloride",
+        "note": "مضاد للالتهاب"
+      },
+      {
+        "name": "cetalkonium",
+        "note": "مضاد للميكروبات كما ان له تاثير قاتل للبكتريا واسع المدى بالاضافه الى استخدامه كمضاد للفطريات"
+      }
+    ],
+    "uses": "مطهر ومخدر لانسجه الفم – قبل وبعد العمليات الجراحيه لمنع الالتهاب.",
+    "warnings": "لا ينصح به للاطفال او كبار السن",
+    "suggested_dose": "يستخدم حتى ثلاث مرات يوميا",
+    "source_page": 4
+  },
+  {
+    "seed_key": "dentocalm-ointment",
+    "trade_name": "Dentocalm",
+    "form": "مرهم",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "benzocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "clove oil",
+        "note": "زيت القرنفل – مطهر للجروح مخفف للالم"
+      }
+    ],
+    "uses": "مسكن ومخدر لالم الاسنان",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 4
+  },
+  {
+    "seed_key": "clovacaine-solution",
+    "trade_name": "Clovacaine",
+    "form": "محلول",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "clove oil",
+        "note": "زيت القرنفل – مطهر للجروح مخفف للالم"
+      },
+      {
+        "name": "geranium",
+        "note": "تجديد الخلايا الميته"
+      },
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      }
+    ],
+    "uses": "مسكن لالم الاسنان",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 4
+  },
+  {
+    "seed_key": "dentocaine-ointment",
+    "trade_name": "Dentocaine",
+    "form": "مرهم",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "benzocaine",
+        "note": "مخدر موضعي"
+      }
+    ],
+    "uses": "مخدر للاسنان",
+    "warnings": null,
+    "suggested_dose": "كل 12 ساعه بعد الاكل",
+    "source_page": 5
+  },
+  {
+    "seed_key": "jogel-gel",
+    "trade_name": "Jogel",
+    "form": "gel",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "jojoba oil",
+        "note": "مضاد للالتهابات وقاتل لانواع من البكتريا ويسرع في التئام الجروح بالاضافة الي انه ملطف"
+      },
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      }
+    ],
+    "uses": "مطهر ومخدر لانسجه الفم – لعلاج الالتهابات الناتجة من التركيبات الصناعية",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 5
+  },
+  {
+    "seed_key": "medijel-gel",
+    "trade_name": "Medijel",
+    "form": "gel",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "aminacrine",
+        "note": "used as a topical antiseptic"
+      },
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      }
+    ],
+    "uses": "مطهر للفم ومخدر",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 5
+  },
+  {
+    "seed_key": "mundisal-gel",
+    "trade_name": "Mundisal",
+    "form": "جل",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "cetalkonium",
+        "note": "مضاد للميكروبات كما ان له تاثير قاتل للبكتريا واسع المدى بالاضافه الى استخدامه كمضاد للفطريات"
+      }
+    ],
+    "uses": "قابض للانسجه ومطهر للفم",
+    "warnings": null,
+    "suggested_dose": "جرعه كل 12 ساعه",
+    "source_page": 5
+  },
+  {
+    "seed_key": "oracure-gel-15g",
+    "trade_name": "Oracure",
+    "form": "جل",
+    "pack": "15 g",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "cetylpyridinium",
+        "note": "It is an antiseptic that kills bacteria"
+      }
+    ],
+    "uses": "مطهر للفم ومخدر",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 6
+  },
+  {
+    "seed_key": "oracure-gel-30g",
+    "trade_name": "Oracure",
+    "form": "جل",
+    "pack": "30 g",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "cetylpyridinium",
+        "note": "It is an antiseptic that kills bacteria"
+      }
+    ],
+    "uses": "مطهر للفم ومخدر",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 6
+  },
+  {
+    "seed_key": "oral-balance-gel",
+    "trade_name": "Oral balance",
+    "form": "جل",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "glycerin",
+        "note": null
+      },
+      {
+        "name": "sorbitol",
+        "note": null
+      },
+      {
+        "name": "xylitol",
+        "note": null
+      },
+      {
+        "name": "carbomer",
+        "note": null
+      },
+      {
+        "name": "hydroxyethyl cellulose",
+        "note": null
+      },
+      {
+        "name": "sodium hydroxide",
+        "note": null
+      },
+      {
+        "name": "propylparaben",
+        "note": null
+      }
+    ],
+    "uses": "مطهر للفم ومخدر",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 6
+  },
+  {
+    "seed_key": "salioct-paint",
+    "trade_name": "Salioct",
+    "form": "دهان",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "glycerin",
+        "note": "يُستخدم كعامل محلي و مادة حافظة مضادة للجراثيم و عامل رافع للزُوجة"
+      },
+      {
+        "name": "polydocanol",
+        "note": "كمضاد للالتهاب"
+      },
+      {
+        "name": "rhubarb",
+        "note": "مهدئ لالم الاسنان"
+      },
+      {
+        "name": "salicylic acid",
+        "note": "مسكن للالم ومضاد للالتهاب"
+      }
+    ],
+    "uses": "قابض للانسجه ولعلاج قروح الفم",
+    "warnings": null,
+    "suggested_dose": "3 مرات يوميا",
+    "source_page": 6
+  },
+  {
+    "seed_key": "salivex-l-paint",
+    "trade_name": "Salivex-L",
+    "form": "دهان",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "anthraquinone glycoside",
+        "note": "يقضى على الميكروب المسبب لقرحه الفم"
+      },
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "salicylic acid",
+        "note": "مسكن للالم ومضاد للالتهاب"
+      }
+    ],
+    "uses": "قابض للانسجه ولعلاج قروح الفم",
+    "warnings": null,
+    "suggested_dose": "3 مرات يوميا",
+    "source_page": 7
+  },
+  {
+    "seed_key": "piravex-paint",
+    "trade_name": "Piravex",
+    "form": "دهان",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "anthraquinone glycoside",
+        "note": "يقضى على الميكروب المسبب لقرحه الفم"
+      },
+      {
+        "name": "menthol",
+        "note": "زيت طيار له رائحة عطرية مميزة لتخفف حالات مثل الاحتقان."
+      },
+      {
+        "name": "salicylic acid",
+        "note": "مسكن للالم ومضاد للالتهاب"
+      }
+    ],
+    "uses": "قابض للانسجه ولعلاج قروح الفم",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 7
+  },
+  {
+    "seed_key": "septogel-gel",
+    "trade_name": "Septogel",
+    "form": "gel",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "aminoacridine",
+        "note": "used clinically as a topical antiseptic"
+      },
+      {
+        "name": "salicylic acid",
+        "note": "مسكن للالم ومضاد للالتهاب"
+      }
+    ],
+    "uses": "قابض للانسجه ولعلاج قروح الفم",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 7
+  },
+  {
+    "seed_key": "canyon-gel",
+    "trade_name": "Canyon",
+    "form": "gel",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "cetylpyridinium chloride",
+        "note": "It is an antiseptic that kills bacteria and other microorganisms"
+      },
+      {
+        "name": "chlorocresol",
+        "note": "تستخدم هذه المادة كمادة باعثة للرذاذات في المستحضرات الصيدلانية الموضعي"
+      }
+    ],
+    "uses": "مطهر للفم ومخدر",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 8
+  },
+  {
+    "seed_key": "alpthtabn-tabs",
+    "trade_name": "Alpthtabn",
+    "form": "اقراص",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "amlexanox 2 mg",
+        "note": "anti-inflammatory antiallergic immunomodulator used to treat recurrent aphthous ulcers (canker sores)"
+      },
+      {
+        "name": "microcrystalline cellulose",
+        "note": "inactive ingredient"
+      },
+      {
+        "name": "carbomer",
+        "note": "inactive ingredient"
+      }
+    ],
+    "uses": "يستخدم لعلاج قرح الفم للمرضي البالغين من العمر 12 سنة فأكثر",
+    "warnings": "لا يستخدم للأطفال أقل من 12 سنة أو للمرضي ذوى مناعة غير طبيعية",
+    "suggested_dose": "جرعه كل 12 ساعه بعد الاكل",
+    "source_page": 8
+  },
+  {
+    "seed_key": "jobadel-gel",
+    "trade_name": "Jobadel",
+    "form": "gel",
+    "pack": "20 g",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "jojoba oil",
+        "note": "It possesses microbial properties which discourage the growth of bacteria and fungal microbes. The oil also contains nutrients such as vitamin E, B complex vitamins, and minerals such as silicon"
+      }
+    ],
+    "uses": "مطهر للفم ومخدر",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 8
+  },
+  {
+    "seed_key": "orovex-mouthwash",
+    "trade_name": "Orovex",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "menthol",
+        "note": "مكون اساسى من زيت النعناع يوضع على الجسم لتخفيف الاحتقان"
+      },
+      {
+        "name": "thymol",
+        "note": "ماده تستخرج من الصعتر وتستخدم كمطهر وهى مضاد للفطريات"
+      },
+      {
+        "name": "sodium fluoride",
+        "note": "Fluoride has been found to be helpful in reducing the number of cavities in the teeth"
+      },
+      {
+        "name": "saccharine sodium",
+        "note": "لاضافه الطعم الجيد الحلو فى الفم"
+      },
+      {
+        "name": "glycerin + deionized water",
+        "note": "مرطب للفم"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه. يحارب الجراثيم التى تسبب رائحه الفم غير المرغوب فيها. يحارب ترسيب البلاك والجير على الاسنان. يحافظ على نظافه وبياض الاسنان.",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 9
+  },
+  {
+    "seed_key": "hexitol-mouthwash",
+    "trade_name": "Hexitol",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "chlorhexidine HCl 125 mg/100 ml",
+        "note": "used in disinfectants and active substance in healing wound"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه",
+    "warnings": null,
+    "suggested_dose": "عند اللزوم حتى ثلاث مرات يوميا",
+    "source_page": 9
+  },
+  {
+    "seed_key": "citrolin-f-mouthwash",
+    "trade_name": "Citrolin-F",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "cetrimide 25%",
+        "note": "ماده مطهره تستخدم لتطهير الجلد من ال fungs و microbs"
+      },
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "sodium fluoride",
+        "note": "Fluoride has been found to be helpful in reducing the number of cavities in the teeth"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه. لالم الفم والاسنان",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 10
+  },
+  {
+    "seed_key": "betadine-mouthwash",
+    "trade_name": "Betadine MW",
+    "form": "مضمضه",
+    "pack": "120 ml",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "povidone iodine 200 mg",
+        "note": "مادة ذات فعالية مطهرة، معدة لتعقيم الجروح والحروق الطفيفة ولمعالجة الالتهابات الجلدية التي تسببها الجراثيم (البكتيريا والفطريات)"
+      }
+    ],
+    "uses": "لعلاج التهاب وعدوى الفم",
+    "warnings": "لا ينصح باستخدامه اثناء الحمل",
+    "suggested_dose": "جرعه واحده يوميا",
+    "source_page": 10
+  },
+  {
+    "seed_key": "oracin-mouthwash",
+    "trade_name": "Oracin",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "menthol",
+        "note": "مكون اساسى من زيت النعناع يوضع على الجسم لتخفيف الاحتقان"
+      },
+      {
+        "name": "clove oil",
+        "note": "زيت القرنفل – مطهر للجروح مخفف للالم ومضاد"
+      },
+      {
+        "name": "thymol",
+        "note": "ماده تستخرج من الصعتر وتستخدم كمطهر وهى مضاد للفطريات"
+      },
+      {
+        "name": "glycerin",
+        "note": "مرطب للفم"
+      }
+    ],
+    "uses": "قابض للانسجه ولعلاج قروح الفم ومطهر جيد للانسجه.",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 10
+  },
+  {
+    "seed_key": "oradent-mouthwash",
+    "trade_name": "Ora-Dent",
+    "form": "مضمضه",
+    "pack": "120 ml",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "menthol",
+        "note": "مكون اساسى من زيت النعناع يوضع على الجسم لتخفيف الاحتقان"
+      },
+      {
+        "name": "methyl salicylate 0.06%",
+        "note": null
+      },
+      {
+        "name": "eucalyptol",
+        "note": "eucalyptol is used in flavorings, fragrances, and cosmetics"
+      },
+      {
+        "name": "sodium fluoride",
+        "note": "Fluoride has been found to be helpful in reducing the number of cavities in the teeth"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 11
+  },
+  {
+    "seed_key": "ora-zed-mouthwash",
+    "trade_name": "Ora-zed",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "menthol",
+        "note": "مكون اساسى من زيت النعناع يوضع على الجسم لتخفيف الاحتقان"
+      },
+      {
+        "name": "clove oil",
+        "note": "زيت القرنفل – مطهر للجروح مخفف للالم ومضاد للجراثيم"
+      },
+      {
+        "name": "cinnamon",
+        "note": "تساعد فى مكافحه الالتهابات الفطريه والبكتريه"
+      },
+      {
+        "name": "methyl paraben",
+        "note": "an anti-fungal agent often used in a variety of cosmetics and personal-care products. It is also used as a food preservative"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه",
+    "warnings": null,
+    "suggested_dose": "مره يوميا",
+    "source_page": 11
+  },
+  {
+    "seed_key": "tantum-verde-mouthwash",
+    "trade_name": "Tantum Verde",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "benzydamine 0.15%",
+        "note": "a locally-acting nonsteroidal anti-inflammatory drug with local anaesthetic and analgesic properties for pain relief and anti-inflammatory treatment of inflammatory conditions of the mouth"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه",
+    "warnings": null,
+    "suggested_dose": "عند اللزوم حتى 3 مرات",
+    "source_page": 12
+  },
+  {
+    "seed_key": "oraldene-mouthwash",
+    "trade_name": "Oraldene",
+    "form": "مضمضه",
+    "pack": null,
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "hexetidine 0.1%",
+        "note": "an anti-bacterial and anti-fungal agent commonly used in both veterinary and human medicine. It is a local anesthetic, astringent and deodorant and has antiplaque effects"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه",
+    "warnings": null,
+    "suggested_dose": "كل 12 ساعه",
+    "source_page": 12
+  },
+  {
+    "seed_key": "lysoplac-mouthwash",
+    "trade_name": "Lysoplac",
+    "form": "مضمضه",
+    "pack": "250 ml",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "chlorhexidine",
+        "note": "used in disinfectants"
+      },
+      {
+        "name": "sodium citrate",
+        "note": "used as an acidity regulator in drinks"
+      },
+      {
+        "name": "sodium borate",
+        "note": "used in biochemical and chemical laboratories to make buffers"
+      }
+    ],
+    "uses": "مطهر للفم وقابض للانسجه",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 12
+  },
+  {
+    "seed_key": "bradoral-lozenges",
+    "trade_name": "Bradoral",
+    "form": "أقراص استحلاب",
+    "pack": "14 tabs",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "domiphen bromide 0.5 mg",
+        "note": "بروميد الدوديسيل ثنائى ميثيل (2 فينوكسى إثيل) أمونيوم (= بروميد الدوميفين)؛ ينتمى إلى مجموعة مركبات الأمونيوم الرباعية طويلة السلسلة"
+      },
+      {
+        "name": "eucalyptol, menthol, essential oil",
+        "note": "بأقل كميات ممكنة"
+      }
+    ],
+    "uses": "مطهر للفم والحلق. برادورال يتحمله الغشاء المخاطى للفم جيدا. وله طعم لطيف يتحمله الأطفال أيضا.",
+    "warnings": "يجب ألا يستخدم برادورال أثناء الشهور الثلاثة الأولى من الحمل إلا لأسباب قهرية",
+    "suggested_dose": "للإستخدام الوقائى: قرص واحد للإستحلاب 4 - 6 مرات يوميا، يذاب ببطئ فى الفم. للإستخدام فى الحالات المصابة بالعدوى فعلا: يستحلب قرص واحد كل ساعة إلى ساعتين (بحد أقصى 8 أقراص للإستحلاب فى اليوم).",
+    "source_page": 13
+  },
+  {
+    "seed_key": "larypro-lozenges",
+    "trade_name": "Larypro",
+    "form": "أقراص استحلاب",
+    "pack": "20 tabs",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "lysozyme 10 mg",
+        "note": null
+      },
+      {
+        "name": "dequalinium 25 mg",
+        "note": null
+      }
+    ],
+    "uses": "مطهر للفم والحلق",
+    "warnings": null,
+    "suggested_dose": "قرص واحد للإستحلاب 4 - 6 مرات يوميا، يذاب ببطئ فى الفم",
+    "source_page": 13
+  },
+  {
+    "seed_key": "strepsils-lozenges",
+    "trade_name": "Strepsils",
+    "form": "أقراص استحلاب",
+    "pack": "20 tabs",
+    "category": "mouth_cleaning",
+    "active_ingredients": [
+      {
+        "name": "dichlorobenzyl alcohol",
+        "note": "mild antiseptic, able to kill bacteria and viruses associated with mouth and throat infections"
+      },
+      {
+        "name": "amylmetacresol",
+        "note": "an antiseptic used to treat infections of the mouth and throat"
+      }
+    ],
+    "uses": "حل الأول لإلتهاب الحلق والحنجرة. أقراص مضادة للبكتريا مطهرة للحنجرة. تساعد على تطهير الأنف وتنظيم التنفس. أقراص مطهرة للحنجرة وإزالة إلتهاب الفم والحنجرة.",
+    "warnings": null,
+    "suggested_dose": "قرص واحد للإستحلاب 4 - 6 مرات يوميا، يذاب ببطئ فى الفم",
+    "source_page": 14
+  },
+  {
+    "seed_key": "elgyfluor-toothpaste",
+    "trade_name": "Elgyfluor",
+    "form": "معجون اسنان (toothpaste)",
+    "pack": null,
+    "category": "sensitive_toothpaste",
+    "active_ingredients": [
+      {
+        "name": "nicomethanol hydrofluoride",
+        "note": null
+      }
+    ],
+    "uses": "تقليل حساسيه الاسنان. معجون اسنان للاسنان الحساسه",
+    "warnings": null,
+    "suggested_dose": "على حسب الحاجه",
+    "source_page": 16
+  },
+  {
+    "seed_key": "sensodyne-toothpaste-100g",
+    "trade_name": "Sensodyne",
+    "form": "معجون اسنان (toothpaste)",
+    "pack": "100 g",
+    "category": "sensitive_toothpaste",
+    "active_ingredients": [
+      {
+        "name": "fluoride",
+        "note": "gel, paste – many fluor"
+      }
+    ],
+    "uses": "تقليل حساسيه الاسنان. معجون اسنان للاسنان الحساسه",
+    "warnings": null,
+    "suggested_dose": "على حسب الحاجه",
+    "source_page": 16
+  },
+  {
+    "seed_key": "sensodyne-toothpaste-55g",
+    "trade_name": "Sensodyne",
+    "form": "معجون اسنان (toothpaste)",
+    "pack": "55 g",
+    "category": "sensitive_toothpaste",
+    "active_ingredients": [
+      {
+        "name": "fluoride",
+        "note": "gel, paste – many fluor"
+      }
+    ],
+    "uses": "تقليل حساسيه الاسنان. معجون اسنان للاسنان الحساسه",
+    "warnings": null,
+    "suggested_dose": "على حسب الحاجه",
+    "source_page": 16
+  },
+  {
+    "seed_key": "amovit-c-1000-tabs",
+    "trade_name": "Amovit-C 1000",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "vitamin_c",
+    "active_ingredients": [
+      {
+        "name": "vitamin C",
+        "note": null
+      }
+    ],
+    "uses": "للحفاظ على صحه اللثه فى حاله نزيف اللثه. يساعد فى عمليه تكوين الاسنان اثناء النمو",
+    "warnings": null,
+    "suggested_dose": "مره واحده يوميا",
+    "source_page": 18
+  },
+  {
+    "seed_key": "cevarol-500-tabs",
+    "trade_name": "Cevarol 500 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "vitamin_c",
+    "active_ingredients": [
+      {
+        "name": "vitamin C",
+        "note": null
+      }
+    ],
+    "uses": "تقويه اللثه ويساعد فى عمليه تكوين الاسنان",
+    "warnings": null,
+    "suggested_dose": "مره واحده يوميا",
+    "source_page": 18
+  },
+  {
+    "seed_key": "vitacid-c-1g-effervescent",
+    "trade_name": "Vitacid-C 1 g",
+    "form": "فوار",
+    "pack": "12 tabs",
+    "category": "vitamin_c",
+    "active_ingredients": [
+      {
+        "name": "vitamin C",
+        "note": null
+      }
+    ],
+    "uses": "تقويه اللثه ويساعد فى عمليه تكوين الاسنان. يساعد فيتامين ج على إنتاج الكولاجين، والبروتين الذي يحتاجه الإنسان للمحافظة على الأسنان، اللثة، العظام.",
+    "warnings": null,
+    "suggested_dose": "مره واحده يوميا",
+    "source_page": 18
+  },
+  {
+    "seed_key": "ambezim-g-tabs",
+    "trade_name": "Ambezim-G",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "anti_inflammatory",
+    "active_ingredients": [
+      {
+        "name": "chymotrypsin",
+        "note": "هم انزيمات proteolytic بتكسر البروتينات عن طريق انها بتأثر علي ال exudative phase من inflamation فبيحصل تدمير لل peptidic chains وبالتالي فمش هيتكون inflamation"
+      },
+      {
+        "name": "trypsin",
+        "note": "هم انزيمات proteolytic بتكسر البروتينات عن طريق انها بتأثر علي ال exudative phase من inflamation فبيحصل تدمير لل peptidic chains وبالتالي فمش هيتكون inflamation"
+      }
+    ],
+    "uses": "1- بعد خلع الاسنان 2- التهابات اللثه 3- التهابات الفم والاسنان 4- بعد اى عمليه جراحيه فى الفم او الفك او الاسنان",
+    "warnings": null,
+    "suggested_dose": "قرص 3 مرات يوميا (قبل الأكل بساعة) ومن الممكن زيادة الجرعة حسب الحالة",
+    "source_page": 20
+  },
+  {
+    "seed_key": "alphintern-tabs",
+    "trade_name": "Alphintern",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "anti_inflammatory",
+    "active_ingredients": [
+      {
+        "name": "chymotrypsin",
+        "note": "هم انزيمات proteolytic بتكسر البروتينات عن طريق انها بتأثر علي ال exudative phase من inflamation فبيحصل تدمير لل peptidic chains وبالتالي فمش هيتكون inflamation"
+      },
+      {
+        "name": "trypsin",
+        "note": "هم انزيمات proteolytic بتكسر البروتينات عن طريق انها بتأثر علي ال exudative phase من inflamation فبيحصل تدمير لل peptidic chains وبالتالي فمش هيتكون inflamation"
+      }
+    ],
+    "uses": "1- بعد خلع الاسنان 2- التهابات اللثه 3- التهابات الفم والاسنان 4- بعد اى عمليه جراحيه فى الفم او الفك او الاسنان",
+    "warnings": null,
+    "suggested_dose": "قرص 3 مرات يوميا (قبل الأكل بساعة) ومن الممكن زيادة الجرعة حسب الحالة",
+    "source_page": 20
+  },
+  {
+    "seed_key": "alpha-chymotrypsin-amp",
+    "trade_name": "Alpha Chymotrypsin",
+    "form": "حقن او امبولات",
+    "pack": "5 amp",
+    "category": "anti_inflammatory",
+    "active_ingredients": [
+      {
+        "name": "chymotrypsin",
+        "note": "هم انزيمات proteolytic بتكسر البروتينات عن طريق انها بتأثر علي ال exudative phase من inflamation فبيحصل تدمير لل peptidic chains وبالتالي فمش هيتكون inflamation"
+      },
+      {
+        "name": "trypsin",
+        "note": "هم انزيمات proteolytic بتكسر البروتينات عن طريق انها بتأثر علي ال exudative phase من inflamation فبيحصل تدمير لل peptidic chains وبالتالي فمش هيتكون inflamation"
+      }
+    ],
+    "uses": "بصفة عامة فى حالات التورم الموضعى الذى قد يلى العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "1 - 2 أمبولة يوميا عن طريق الحقن العضلى إلى ان تختفى الأعراض المرضية. فى الحالات المزمنة: 1 - 2 إلى 3 مرات أسبوعيا.",
+    "source_page": 21
+  },
+  {
+    "seed_key": "thiotex-300-tabs",
+    "trade_name": "Thiotex 300 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "anti_inflammatory",
+    "active_ingredients": [
+      {
+        "name": "thioctic acid",
+        "note": "حمض الثيوكتيك. 1- يحفز تكوين (عامل تكوين العصب) لذلك يحسن من توصيل الاعصاب. 2- يحسن من تكوين الانسجه عن طريق تكوين الموسع للاوعيه (اوكسيد النيتروجين)"
+      }
+    ],
+    "uses": "التهاب الاعصاب فقط",
+    "warnings": null,
+    "suggested_dose": "Dose: in severe cases 300-600 mg by IV injection daily for two to four weeks, after that oral tablets should be used as 300 mg daily as a maintenance dose. الاقراص فى الحاله العاديه مره واحده بعد الفطار",
+    "source_page": 21
+  },
+  {
+    "seed_key": "thiotex-600-tabs",
+    "trade_name": "Thiotex 600 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "anti_inflammatory",
+    "active_ingredients": [
+      {
+        "name": "thioctic acid",
+        "note": "حمض الثيوكتيك. 1- يحفز تكوين (عامل تكوين العصب) لذلك يحسن من توصيل الاعصاب. 2- يحسن من تكوين الانسجه عن طريق تكوين الموسع للاوعيه (اوكسيد النيتروجين)"
+      }
+    ],
+    "uses": "التهاب الاعصاب فقط",
+    "warnings": null,
+    "suggested_dose": "Dose: in severe cases 300-600 mg by IV injection daily for two to four weeks, after that oral tablets should be used as 300 mg daily as a maintenance dose. الاقراص فى الحاله العاديه مره واحده بعد الفطار",
+    "source_page": 21
+  },
+  {
+    "seed_key": "flagyl-500-tabs",
+    "trade_name": "Flagyl 500 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "metronidazole",
+        "note": "مضادة للبكتريا اللاهوائية. One of the antibiotics that kill bacteria by inhibition of nucleic acid of bacteria"
+      }
+    ],
+    "uses": "عدوي الاسنان (أذا كانت عدوي ببكتريا لاهوائية). رائحة الفم الكريهة بسبب البكتريا اللاهوائية.",
+    "warnings": null,
+    "suggested_dose": "30 مجم لكل كجم من وزن الطفل: يعني لو طفل عمره سنة وزنه 10 كيلو تقريبا، يبقي 30 مضروبة في 10 يساوي 300 مجم يوميا. وتركيز الشراب 125 مجم لكل 5 مل: أذا كل 5 مللي به 125 مجم ميترونيدازول، أذا يستخدم 12 مل يوميا من فلاجيل، أي 4 مل 3 مرات يوميا.",
+    "source_page": 23
+  },
+  {
+    "seed_key": "flagyl-250-tabs",
+    "trade_name": "Flagyl 250 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "metronidazole",
+        "note": "مضادة للبكتريا اللاهوائية. One of the antibiotics that kill bacteria by inhibition of nucleic acid of bacteria"
+      }
+    ],
+    "uses": "عدوي الاسنان (أذا كانت عدوي ببكتريا لاهوائية). رائحة الفم الكريهة بسبب البكتريا اللاهوائية.",
+    "warnings": null,
+    "suggested_dose": "30 مجم لكل كجم من وزن الطفل: يعني لو طفل عمره سنة وزنه 10 كيلو تقريبا، يبقي 30 مضروبة في 10 يساوي 300 مجم يوميا. وتركيز الشراب 125 مجم لكل 5 مل: أذا كل 5 مللي به 125 مجم ميترونيدازول، أذا يستخدم 12 مل يوميا من فلاجيل، أي 4 مل 3 مرات يوميا.",
+    "source_page": 23
+  },
+  {
+    "seed_key": "flagyl-125-syrup",
+    "trade_name": "Flagyl 125 mg",
+    "form": "شراب",
+    "pack": "100 ml",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "metronidazole",
+        "note": "مضادة للبكتريا اللاهوائية. One of the antibiotics that kill bacteria by inhibition of nucleic acid of bacteria"
+      }
+    ],
+    "uses": "عدوي الاسنان (أذا كانت عدوي ببكتريا لاهوائية). رائحة الفم الكريهة بسبب البكتريا اللاهوائية.",
+    "warnings": null,
+    "suggested_dose": "30 مجم لكل كجم من وزن الطفل: يعني لو طفل عمره سنة وزنه 10 كيلو تقريبا، يبقي 30 مضروبة في 10 يساوي 300 مجم يوميا. وتركيز الشراب 125 مجم لكل 5 مل: أذا كل 5 مللي به 125 مجم ميترونيدازول، أذا يستخدم 12 مل يوميا من فلاجيل، أي 4 مل 3 مرات يوميا.",
+    "source_page": 23
+  },
+  {
+    "seed_key": "flagicure-forte-500-tabs",
+    "trade_name": "Flagicure Forte 500 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "metronidazole",
+        "note": "مضادة للبكتريا اللاهوائية. One of the antibiotics that kill bacteria by inhibition of nucleic acid of bacteria"
+      }
+    ],
+    "uses": "عدوي الاسنان (أذا كانت عدوي ببكتريا لاهوائية). رائحة الفم الكريهة بسبب البكتريا اللاهوائية.",
+    "warnings": null,
+    "suggested_dose": "30 مجم لكل كجم من وزن الطفل: يعني لو طفل عمره سنة وزنه 10 كيلو تقريبا، يبقي 30 مضروبة في 10 يساوي 300 مجم يوميا. وتركيز الشراب 125 مجم لكل 5 مل: أذا كل 5 مللي به 125 مجم ميترونيدازول، أذا يستخدم 12 مل يوميا من فلاجيل، أي 4 مل 3 مرات يوميا.",
+    "source_page": 23
+  },
+  {
+    "seed_key": "flagicure-250-tabs",
+    "trade_name": "Flagicure 250 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "metronidazole",
+        "note": "مضادة للبكتريا اللاهوائية. One of the antibiotics that kill bacteria by inhibition of nucleic acid of bacteria"
+      }
+    ],
+    "uses": "عدوي الاسنان (أذا كانت عدوي ببكتريا لاهوائية). رائحة الفم الكريهة بسبب البكتريا اللاهوائية.",
+    "warnings": null,
+    "suggested_dose": "30 مجم لكل كجم من وزن الطفل: يعني لو طفل عمره سنة وزنه 10 كيلو تقريبا، يبقي 30 مضروبة في 10 يساوي 300 مجم يوميا. وتركيز الشراب 125 مجم لكل 5 مل: أذا كل 5 مللي به 125 مجم ميترونيدازول، أذا يستخدم 12 مل يوميا من فلاجيل، أي 4 مل 3 مرات يوميا.",
+    "source_page": 23
+  },
+  {
+    "seed_key": "flumox-250-tabs",
+    "trade_name": "Flumox 250 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "هما مضادان حيويان وهذا الخليط له فاعليه عاليه فى علاج العدوى بالميكروبات الموجبه والسالبه الصبغه الجرام"
+      },
+      {
+        "name": "flucloxacillin",
+        "note": "الفلوكلوكساسيللين له تاثير قوى ضد الميكروبات المفرزه لانزيم بنسيلليناز penicillinase"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للكبار وللاطفال فوق 18 عاما: كبسوله 500 mg كل 6-8 ساعات او قرص 1 g كل 12 ساعه حسب شده العدوى. الاطفال حتى 10 سنوات: 125 - 250 مجم كل 8 ساعات",
+    "source_page": 24
+  },
+  {
+    "seed_key": "flumox-500-tabs",
+    "trade_name": "Flumox 500 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "هما مضادان حيويان وهذا الخليط له فاعليه عاليه فى علاج العدوى بالميكروبات الموجبه والسالبه الصبغه الجرام"
+      },
+      {
+        "name": "flucloxacillin",
+        "note": "الفلوكلوكساسيللين له تاثير قوى ضد الميكروبات المفرزه لانزيم بنسيلليناز penicillinase"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للكبار وللاطفال فوق 18 عاما: كبسوله 500 mg كل 6-8 ساعات او قرص 1 g كل 12 ساعه حسب شده العدوى. الاطفال حتى 10 سنوات: 125 - 250 مجم كل 8 ساعات",
+    "source_page": 24
+  },
+  {
+    "seed_key": "flumox-1g-tabs",
+    "trade_name": "Flumox 1 g",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "هما مضادان حيويان وهذا الخليط له فاعليه عاليه فى علاج العدوى بالميكروبات الموجبه والسالبه الصبغه الجرام"
+      },
+      {
+        "name": "flucloxacillin",
+        "note": "الفلوكلوكساسيللين له تاثير قوى ضد الميكروبات المفرزه لانزيم بنسيلليناز penicillinase"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للكبار وللاطفال فوق 18 عاما: كبسوله 500 mg كل 6-8 ساعات او قرص 1 g كل 12 ساعه حسب شده العدوى. الاطفال حتى 10 سنوات: 125 - 250 مجم كل 8 ساعات",
+    "source_page": 24
+  },
+  {
+    "seed_key": "flumox-syrup",
+    "trade_name": "Flumox",
+    "form": "شراب",
+    "pack": "100 ml",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "هما مضادان حيويان وهذا الخليط له فاعليه عاليه فى علاج العدوى بالميكروبات الموجبه والسالبه الصبغه الجرام"
+      },
+      {
+        "name": "flucloxacillin",
+        "note": "الفلوكلوكساسيللين له تاثير قوى ضد الميكروبات المفرزه لانزيم بنسيلليناز penicillinase"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للكبار وللاطفال فوق 18 عاما: كبسوله 500 mg كل 6-8 ساعات او قرص 1 g كل 12 ساعه حسب شده العدوى. الاطفال حتى 10 سنوات: 125 - 250 مجم كل 8 ساعات",
+    "source_page": 24
+  },
+  {
+    "seed_key": "flumox-1g-vial",
+    "trade_name": "Flumox 1 g",
+    "form": "حقنه",
+    "pack": null,
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "هما مضادان حيويان وهذا الخليط له فاعليه عاليه فى علاج العدوى بالميكروبات الموجبه والسالبه الصبغه الجرام"
+      },
+      {
+        "name": "flucloxacillin",
+        "note": "الفلوكلوكساسيللين له تاثير قوى ضد الميكروبات المفرزه لانزيم بنسيلليناز penicillinase"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للكبار وللاطفال فوق 18 عاما: كبسوله 500 mg كل 6-8 ساعات او قرص 1 g كل 12 ساعه حسب شده العدوى. الاطفال حتى 10 سنوات: 125 - 250 مجم كل 8 ساعات",
+    "source_page": 24
+  },
+  {
+    "seed_key": "augmentin-1g-tabs",
+    "trade_name": "Augmentin 1 g",
+    "form": "أقراص",
+    "pack": "14 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "الأقراص للكبار: 1000 مجم او 625 كل 12 ساعة لمدة 7 أيام كاملة",
+    "source_page": 25
+  },
+  {
+    "seed_key": "augmentin-625-tabs",
+    "trade_name": "Augmentin 625 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "الأقراص للكبار: 1000 مجم او 625 كل 12 ساعة لمدة 7 أيام كاملة",
+    "source_page": 25
+  },
+  {
+    "seed_key": "augmentin-375-tabs",
+    "trade_name": "Augmentin 375 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "الأقراص للكبار: 1000 مجم او 625 كل 12 ساعة لمدة 7 أيام كاملة",
+    "source_page": 25
+  },
+  {
+    "seed_key": "augmentin-600-vial",
+    "trade_name": "Augmentin 600 mg",
+    "form": "حقنه",
+    "pack": null,
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": null,
+    "source_page": 25
+  },
+  {
+    "seed_key": "augmentin-312-syrup",
+    "trade_name": "Augmentin 312 mg/5 ml",
+    "form": "شراب",
+    "pack": null,
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "الشراب للأطفال: من 1-6 سنوات: 50 مجم من تركيز الاموكسيسللين لكل كجم مقسمة علي جرعتين أو ثلاثة، يعني لو طفل وزنه 12 كجم ياخد 4 مل من تركيز 312 ثلاثة مرات يوميا. أعلي من 6 سنوات: 5 مل ثلاثة مرات يوميا من تركيز 457.",
+    "source_page": 25
+  },
+  {
+    "seed_key": "augmentin-457-syrup",
+    "trade_name": "Augmentin 457 mg/5 ml",
+    "form": "شراب",
+    "pack": "35 ml",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "الشراب للأطفال: من 1-6 سنوات: 50 مجم من تركيز الاموكسيسللين لكل كجم مقسمة علي جرعتين أو ثلاثة، يعني لو طفل وزنه 12 كجم ياخد 4 مل من تركيز 312 ثلاثة مرات يوميا. أعلي من 6 سنوات: 5 مل ثلاثة مرات يوميا من تركيز 457.",
+    "source_page": 25
+  },
+  {
+    "seed_key": "hibiotic-1g-tabs",
+    "trade_name": "Hibiotic 1 g",
+    "form": "أقراص",
+    "pack": "8 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية. الالتهابات الناتجه عن البكتريا (التهاب اللثه)",
+    "warnings": null,
+    "suggested_dose": "الأقراص للكبار: 625 mg كل 12 ساعه لمده 7 ايام، او 1 جرام كل 12 ساعه فى حاله العدوى الشديده",
+    "source_page": 26
+  },
+  {
+    "seed_key": "hibiotic-625-tabs",
+    "trade_name": "Hibiotic 625 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية. الالتهابات الناتجه عن البكتريا (التهاب اللثه)",
+    "warnings": null,
+    "suggested_dose": "الأقراص للكبار: 625 mg كل 12 ساعه لمده 7 ايام، او 1 جرام كل 12 ساعه فى حاله العدوى الشديده",
+    "source_page": 26
+  },
+  {
+    "seed_key": "hibiotic-375-tabs",
+    "trade_name": "Hibiotic 375 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية. الالتهابات الناتجه عن البكتريا (التهاب اللثه)",
+    "warnings": null,
+    "suggested_dose": "الأقراص للكبار: 625 mg كل 12 ساعه لمده 7 ايام، او 1 جرام كل 12 ساعه فى حاله العدوى الشديده",
+    "source_page": 26
+  },
+  {
+    "seed_key": "hibiotic-460-syrup",
+    "trade_name": "Hibiotic 460 mg/5 ml",
+    "form": "شراب",
+    "pack": null,
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "الأموكسيسيللين من المعروف أنه يتعرض لهجمات البيتا لاكتام فكان من الضروري وجود مادة فعالة معه تقدر علي دحر هذا النوع من البكتريا المقاوم للبنسللين"
+      },
+      {
+        "name": "clavulanic acid",
+        "note": "المادة الفعالة مع الأموكسيسيللين ضد البكتريا المقاومة للبنسللين"
+      }
+    ],
+    "uses": "عدوي الاسنان والفم (البكتريا موجبه الجرام وسالبه الجرام والبكتريا اللاهوائيه). تلوث الجروح بعد العمليات الجراحية. الالتهابات الناتجه عن البكتريا (التهاب اللثه)",
+    "warnings": null,
+    "suggested_dose": "من 1-6 سنوات: 50 مجم من تركيز الاموكسيسللين لكل كجم مقسمة علي جرعتين أو ثلاثة، يعني لو طفل وزنه 12 كجم ياخد 4 مل من تركيز 320 3 مرات يوميا. أعلي من 6 سنوات: 5 مل 3 مرات يوميا من تركيز 460. اذا كان وزن الطفل أكبر من 40 كجم يأخذ جرعة الكبار.",
+    "source_page": 26
+  },
+  {
+    "seed_key": "floxamo-tabs",
+    "trade_name": "Floxamo",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin 500 mg",
+        "note": "أموكسيسللين تراى هيدرات"
+      },
+      {
+        "name": "flucloxacillin 500 mg",
+        "note": "فلوكلوكساسيللين صوديوم مونوهيدرات"
+      }
+    ],
+    "uses": "1- خراج الاسنان 2- التهاب اللثه 3- العدوى البكتيريه",
+    "warnings": null,
+    "suggested_dose": "الجرعه للبالغين: قرص كل 8 ساعات ويمكن ان يعطى كل 6 ساعات فى حاله الاصابه الشديده. الجرعه للاطفال من سن 8-16: يعطى نصف قرص كل 8 ساعات ويمكن ان يعطى نصف قرص كل 6 ساعات فى حاله الاصابه الاكثر خطوره",
+    "source_page": 27
+  },
+  {
+    "seed_key": "curisafe-500-caps",
+    "trade_name": "Curisafe 500 mg",
+    "form": "أقراص",
+    "pack": "8 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "cefadroxil",
+        "note": "1 جم فاعلية سيفادروكسيل"
+      }
+    ],
+    "uses": "عدوى الفم والاسنان",
+    "warnings": null,
+    "suggested_dose": "الجرعة المعتادة لعلاج التهاب الاسنان وانسجه الفم هى 1 جرام كجرعة واحدة فى اليوم او مقسمة على جرعتين متساويتين لمدة 10 ايام على الاقل",
+    "source_page": 27
+  },
+  {
+    "seed_key": "ibiamox-250-tabs",
+    "trade_name": "Ibiamox 250 mg",
+    "form": "أقراص",
+    "pack": "12 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "Amoxicillin as 250 mg, 500 mg and 1000 mg injections"
+      }
+    ],
+    "uses": "Prevent blood infection due to procedures such as dental extractions in patients who are at risk of developing endocarditis. تستخدم قبل خلع الاسنان للوقايه من endocarditis فى حاله مرضى الحمى الروماتزميه. العدوى البكتيريه",
+    "warnings": null,
+    "suggested_dose": "فى حاله العدوى البكتيريه: كبسولة 500 مجم كل 8 ساعات، او كبسولتين 500 مجم كل 12 ساعة. فى حاله الوقايه تستخدم: حقنه 1 جرام للكبار، حقنه 500 مجرام للاطفال",
+    "source_page": 28
+  },
+  {
+    "seed_key": "ibiamox-500-tabs",
+    "trade_name": "Ibiamox 500 mg",
+    "form": "أقراص",
+    "pack": "12 tabs",
+    "category": "antibiotic",
+    "active_ingredients": [
+      {
+        "name": "amoxicillin",
+        "note": "Amoxicillin as 250 mg, 500 mg and 1000 mg injections"
+      }
+    ],
+    "uses": "Prevent blood infection due to procedures such as dental extractions in patients who are at risk of developing endocarditis. تستخدم قبل خلع الاسنان للوقايه من endocarditis فى حاله مرضى الحمى الروماتزميه. العدوى البكتيريه",
+    "warnings": null,
+    "suggested_dose": "فى حاله العدوى البكتيريه: كبسولة 500 مجم كل 8 ساعات، او كبسولتين 500 مجم كل 12 ساعة. فى حاله الوقايه تستخدم: حقنه 1 جرام للكبار، حقنه 500 مجرام للاطفال",
+    "source_page": 28
+  },
+  {
+    "seed_key": "ketolac-tabs",
+    "trade_name": "Ketolac",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketorolac tromethamine 10 mg",
+        "note": "الخواص والميكانيزم: كيتولاك ينتمي إلي مجموعة مضادات الإلتهابات غير الستيرودية NSAIDs ولذلك فهو يعمل علي تثبيط إنزيمي سيكلو اوكسيجيناز 1 و 2 معا (COX-1 + COX-2) ويعتبر اقواها علي الاطلاق."
+      }
+    ],
+    "uses": "مسكن قوى لالم الفم والاسنان",
+    "warnings": null,
+    "suggested_dose": null,
+    "source_page": 30
+  },
+  {
+    "seed_key": "ketolac-amp",
+    "trade_name": "Ketolac",
+    "form": "حقن",
+    "pack": "5 amp",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketorolac tromethamine 30 mg",
+        "note": "الخواص والميكانيزم: كيتولاك ينتمي إلي مجموعة مضادات الإلتهابات غير الستيرودية NSAIDs ولذلك فهو يعمل علي تثبيط إنزيمي سيكلو اوكسيجيناز 1 و 2 معا (COX-1 + COX-2) ويعتبر اقواها علي الاطلاق."
+      }
+    ],
+    "uses": "مسكن قوى لالم الفم والاسنان",
+    "warnings": null,
+    "suggested_dose": "جرعه الحقن للبالغين تحت 60 عاما: كيتولاك حقن مرتين يوميا بحد اقصي 4 حقن يوميا ومدة إستخدام قصوي 5 أيام. فوق ال 60 عاما: نصف أمبول كيتولاك مرتين يوميا بحد أقصي 4 حقن يوميا ومدة إستخدام قصوي 5 أيام فقط",
+    "source_page": 30
+  },
+  {
+    "seed_key": "cataflam-50-tabs",
+    "trade_name": "Cataflam 50 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "الام الأسنان واللثة.",
+    "warnings": "ينصح بتناول كتافلام أقراص بعد الوجبات لتأثيره علي المعدة.",
+    "suggested_dose": "25-50 مجم من كتافلام أقراص كل 8 ساعات.",
+    "source_page": 30
+  },
+  {
+    "seed_key": "cataflam-25-tabs",
+    "trade_name": "Cataflam 25 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "الام الأسنان واللثة.",
+    "warnings": "ينصح بتناول كتافلام أقراص بعد الوجبات لتأثيره علي المعدة.",
+    "suggested_dose": "25-50 مجم من كتافلام أقراص كل 8 ساعات.",
+    "source_page": 30
+  },
+  {
+    "seed_key": "cataflam-75-amp",
+    "trade_name": "Cataflam 75 mg",
+    "form": "حقن",
+    "pack": "3 أو 6 أمبولات",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "الام الأسنان واللثة.",
+    "warnings": null,
+    "suggested_dose": null,
+    "source_page": 30
+  },
+  {
+    "seed_key": "oflam-50-tabs",
+    "trade_name": "Oflam 50",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": "يمنع أستخدام أوفلام أقراص تماما للأطفال تحت 9 سنوات ويتم إستخدام أقماع فولتارين أو دولفين بدلا منه.",
+    "suggested_dose": "البالغين: يتم إستعمال أوفلام 50 أقراص 3 مرات يوميا بعد الوجبات للوقاية من تأثيره علي المعدة. للأطفال تحت 12 عاما: يتم إستعمال أوفلام 25 أقراص بحد اقصي 3 مرات يوميا.",
+    "source_page": 31
+  },
+  {
+    "seed_key": "oflam-25-tabs",
+    "trade_name": "Oflam 25",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": "يمنع أستخدام أوفلام أقراص تماما للأطفال تحت 9 سنوات ويتم إستخدام أقماع فولتارين أو دولفين بدلا منه.",
+    "suggested_dose": "البالغين: يتم إستعمال أوفلام 50 أقراص 3 مرات يوميا بعد الوجبات للوقاية من تأثيره علي المعدة. للأطفال تحت 12 عاما: يتم إستعمال أوفلام 25 أقراص بحد اقصي 3 مرات يوميا.",
+    "source_page": 31
+  },
+  {
+    "seed_key": "dolphin-k25-tabs",
+    "trade_name": "Dolphin K 25 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "بعد خلع الاسنان. فى حالات الالتهاب والارتشاح المؤلم بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للبالغين: 75-150 مجم فى اليوم كجرعه واحده او مقسمه على جرعات. الاطفال من عمر (1-12) سنه: 1-3 مجم فى اليوم مقسمه على جرعات",
+    "source_page": 31
+  },
+  {
+    "seed_key": "dolphin-k50-tabs",
+    "trade_name": "Dolphin K 50 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "بعد خلع الاسنان. فى حالات الالتهاب والارتشاح المؤلم بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للبالغين: 75-150 مجم فى اليوم كجرعه واحده او مقسمه على جرعات. الاطفال من عمر (1-12) سنه: 1-3 مجم فى اليوم مقسمه على جرعات",
+    "source_page": 31
+  },
+  {
+    "seed_key": "dolphin-k75-caps",
+    "trade_name": "Dolphin K 75 mg",
+    "form": "كبسوله",
+    "pack": "10 caps",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "بعد خلع الاسنان. فى حالات الالتهاب والارتشاح المؤلم بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للبالغين: 75-150 مجم فى اليوم كجرعه واحده او مقسمه على جرعات. الاطفال من عمر (1-12) سنه: 1-3 مجم فى اليوم مقسمه على جرعات",
+    "source_page": 31
+  },
+  {
+    "seed_key": "dolphin-k75-amp",
+    "trade_name": "Dolphin K 75 mg/3 ml",
+    "form": "حقن",
+    "pack": "3 amp",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac potassium",
+        "note": "ديكلوفيناك بوتاسيوم"
+      }
+    ],
+    "uses": "بعد خلع الاسنان. فى حالات الالتهاب والارتشاح المؤلم بعد العمليات الجراحية",
+    "warnings": null,
+    "suggested_dose": "للبالغين: 75-150 مجم فى اليوم كجرعه واحده او مقسمه على جرعات. الاطفال من عمر (1-12) سنه: 1-3 مجم فى اليوم مقسمه على جرعات",
+    "source_page": 31
+  },
+  {
+    "seed_key": "ketolgin-25-tabs",
+    "trade_name": "Ketolgin 25 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "1- مضاد للالتهابات 2- مسكن للالام 3- مساعد فى حالات التهابات الانف والاذن والحنجرة والتهاب الاسنان",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا. ملعقة 3 مرات",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketolgin-50-tabs",
+    "trade_name": "Ketolgin 50 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "1- مضاد للالتهابات 2- مسكن للالام 3- مساعد فى حالات التهابات الانف والاذن والحنجرة والتهاب الاسنان",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا. ملعقة 3 مرات",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketolgin-200-caps",
+    "trade_name": "Ketolgin 200 mg",
+    "form": "كبسوله",
+    "pack": "10 caps",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "1- مضاد للالتهابات 2- مسكن للالام 3- مساعد فى حالات التهابات الانف والاذن والحنجرة والتهاب الاسنان",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا. ملعقة 3 مرات",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketolgin-100-amp",
+    "trade_name": "Ketolgin 100 mg",
+    "form": "حقن",
+    "pack": "3 amp",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "1- مضاد للالتهابات 2- مسكن للالام 3- مساعد فى حالات التهابات الانف والاذن والحنجرة والتهاب الاسنان",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا. ملعقة 3 مرات",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketofan-25-tabs",
+    "trade_name": "Ketofan 25 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketofan-50-caps",
+    "trade_name": "Ketofan 50 mg",
+    "form": "كبسوله",
+    "pack": "20 caps",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketofan-75-caps",
+    "trade_name": "Ketofan 75 mg",
+    "form": "كبسوله",
+    "pack": "10 caps",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا",
+    "source_page": 32
+  },
+  {
+    "seed_key": "ketofan-100-amp",
+    "trade_name": "Ketofan 100 mg",
+    "form": "حقن",
+    "pack": "3 amp",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ketoprofen",
+        "note": "كيتوبروفين"
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": null,
+    "suggested_dose": "كبسولة 3 مرات بعد الاكل (50 مجم). حقنة عضل يوميا",
+    "source_page": 32
+  },
+  {
+    "seed_key": "rapifen-200-tabs",
+    "trade_name": "Rapifen 200 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ibuprofen 200 mg",
+        "note": "كل كبسولة جيلاتينية تحتوى على 200 مجم ايبوبروفين مذاب"
+      }
+    ],
+    "uses": "رابيفين مسكن سريع للآلام وخافض فعال للحرارة ومضاد للالتهابات",
+    "warnings": null,
+    "suggested_dose": "1-2 كبسولة عن طريق الفم كل 4 - 6 ساعات أو عند اللزوم.",
+    "source_page": 32
+  },
+  {
+    "seed_key": "megafen-tabs",
+    "trade_name": "Megafen",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "paracetamol 350 mg",
+        "note": null
+      },
+      {
+        "name": "ibuprofen 200 mg",
+        "note": null
+      }
+    ],
+    "uses": "الام الأسنان واللثة",
+    "warnings": null,
+    "suggested_dose": "للبالغين: قرص ثلاث مرات يوميا. للاطفال: نصف قرص ثلاث مرات يوميا",
+    "source_page": 33
+  },
+  {
+    "seed_key": "brufen-200-tabs",
+    "trade_name": "Brufen 200 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ibuprofen",
+        "note": null
+      }
+    ],
+    "uses": "الام الأسنان واللثة. الام مفصل الفكين",
+    "warnings": null,
+    "suggested_dose": "للكبار: يفضل اخذه بعد الطعام لتقليل اثاره على المعده وجرعته للكبار 400 ملجم كل ست ساعات. للاطفال: يفضل جرعة قليله وهي 200 ملجم كل ست ساعات او شراب ثلاث مرات يوميا",
+    "source_page": 33
+  },
+  {
+    "seed_key": "brufen-400-tabs",
+    "trade_name": "Brufen 400 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ibuprofen",
+        "note": null
+      }
+    ],
+    "uses": "الام الأسنان واللثة. الام مفصل الفكين",
+    "warnings": null,
+    "suggested_dose": "للكبار: يفضل اخذه بعد الطعام لتقليل اثاره على المعده وجرعته للكبار 400 ملجم كل ست ساعات. للاطفال: يفضل جرعة قليله وهي 200 ملجم كل ست ساعات او شراب ثلاث مرات يوميا",
+    "source_page": 33
+  },
+  {
+    "seed_key": "brufen-600-tabs",
+    "trade_name": "Brufen 600 mg",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ibuprofen",
+        "note": null
+      }
+    ],
+    "uses": "الام الأسنان واللثة. الام مفصل الفكين",
+    "warnings": null,
+    "suggested_dose": "للكبار: يفضل اخذه بعد الطعام لتقليل اثاره على المعده وجرعته للكبار 400 ملجم كل ست ساعات. للاطفال: يفضل جرعة قليله وهي 200 ملجم كل ست ساعات او شراب ثلاث مرات يوميا",
+    "source_page": 33
+  },
+  {
+    "seed_key": "brufen-100-syrup",
+    "trade_name": "Brufen 100 mg",
+    "form": "شراب",
+    "pack": "150 ml",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ibuprofen",
+        "note": null
+      }
+    ],
+    "uses": "الام الأسنان واللثة. الام مفصل الفكين",
+    "warnings": null,
+    "suggested_dose": "للكبار: يفضل اخذه بعد الطعام لتقليل اثاره على المعده وجرعته للكبار 400 ملجم كل ست ساعات. للاطفال: يفضل جرعة قليله وهي 200 ملجم كل ست ساعات او شراب ثلاث مرات يوميا",
+    "source_page": 33
+  },
+  {
+    "seed_key": "voltaren-25-tabs",
+    "trade_name": "Voltaren 25",
+    "form": "أقراص",
+    "pack": "30 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac sodium",
+        "note": "ديكلوفيناك صوديوم"
+      }
+    ],
+    "uses": "دواعى الإستعمال: الام الأسنان واللثة.",
+    "warnings": null,
+    "suggested_dose": "الكبار: 75 - 150 ملغم في اليوم، بجرعة واحدة او مقسمة وموزعة خلال اليوم. الاطفال: 3 ملغ لكل كجم في اليوم عن طريق الفم مقسمة على 2 - 4 مرات يوميًا. مثال: إذا كان وزن الطفل 30 كجم يعطى 60 إلى 90 ملغ مقسمة على 2 - 4 مرات يومي",
+    "source_page": 34
+  },
+  {
+    "seed_key": "voltaren-50-tabs",
+    "trade_name": "Voltaren 50",
+    "form": "أقراص",
+    "pack": "20 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac sodium",
+        "note": "ديكلوفيناك صوديوم"
+      }
+    ],
+    "uses": "دواعى الإستعمال: الام الأسنان واللثة.",
+    "warnings": null,
+    "suggested_dose": "الكبار: 75 - 150 ملغم في اليوم، بجرعة واحدة او مقسمة وموزعة خلال اليوم. الاطفال: 3 ملغ لكل كجم في اليوم عن طريق الفم مقسمة على 2 - 4 مرات يوميًا. مثال: إذا كان وزن الطفل 30 كجم يعطى 60 إلى 90 ملغ مقسمة على 2 - 4 مرات يومي",
+    "source_page": 34
+  },
+  {
+    "seed_key": "voltaren-sr-100-tabs",
+    "trade_name": "Voltaren SR 100",
+    "form": "أقراص",
+    "pack": "10 SR tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac sodium",
+        "note": "ديكلوفيناك صوديوم"
+      }
+    ],
+    "uses": "دواعى الإستعمال: الام الأسنان واللثة.",
+    "warnings": null,
+    "suggested_dose": "الكبار: 75 - 150 ملغم في اليوم، بجرعة واحدة او مقسمة وموزعة خلال اليوم. الاطفال: 3 ملغ لكل كجم في اليوم عن طريق الفم مقسمة على 2 - 4 مرات يوميًا. مثال: إذا كان وزن الطفل 30 كجم يعطى 60 إلى 90 ملغ مقسمة على 2 - 4 مرات يومي",
+    "source_page": 34
+  },
+  {
+    "seed_key": "voltaren-75-amp",
+    "trade_name": "Voltaren 75",
+    "form": "حقن",
+    "pack": "3 amp",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "diclofenac sodium",
+        "note": "ديكلوفيناك صوديوم"
+      }
+    ],
+    "uses": "دواعى الإستعمال: الام الأسنان واللثة.",
+    "warnings": null,
+    "suggested_dose": "الكبار: 75 - 150 ملغم في اليوم، بجرعة واحدة او مقسمة وموزعة خلال اليوم. الاطفال: 3 ملغ لكل كجم في اليوم عن طريق الفم مقسمة على 2 - 4 مرات يوميًا. مثال: إذا كان وزن الطفل 30 كجم يعطى 60 إلى 90 ملغ مقسمة على 2 - 4 مرات يومي",
+    "source_page": 34
+  },
+  {
+    "seed_key": "ibuprofen-400-tabs",
+    "trade_name": "Ibuprofen 400 mg",
+    "form": "أقراص",
+    "pack": "10 SR tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "ibuprofen",
+        "note": null
+      }
+    ],
+    "uses": "يُستخدَم هذا الدَّواءُ لعلاج التهاب المفاصِل كمفصل الفكين ولتخفيف الالم في المفاصل.",
+    "warnings": null,
+    "suggested_dose": "الكبار: أخذ الدواء علي معدة خاوية يعطي أفضل أمتصاص وإن كان من المفضل أخذه مع الطعام لتقليل تأثيره الضار علي المعدة. يعطي 400 مجم كل أربع أو ست ساعات.",
+    "source_page": 34
+  },
+  {
+    "seed_key": "mefenam-500-tabs",
+    "trade_name": "Mefenam 500 mg",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "mefenamic acid",
+        "note": null
+      }
+    ],
+    "uses": "الألم المصاحب للتورم أو الالتهاب الذي يتبع الإصابات الرضية أو الجراحية. إلتهابات المفاصل. خافض للحرارة.",
+    "warnings": null,
+    "suggested_dose": "500 مللي جرام 3 مرات يوميا.",
+    "source_page": 35
+  },
+  {
+    "seed_key": "lornicam-rapid-tabs",
+    "trade_name": "Lornicam Rapid",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "analgesic_sedative",
+    "active_ingredients": [
+      {
+        "name": "lornoxicam 8 mg",
+        "note": null
+      }
+    ],
+    "uses": "الالم المرتبط بالتهاب خارج المفاصل ولعلاج اعراض الالم والالتهاب فى حالات الالتهاب العظمى المفصلى والتهاب المفصل الرثوانى.",
+    "warnings": "لا يجب تخطى الحد الاقصى المسموح به من الجرعات وهو 16 مجم يوميا",
+    "suggested_dose": "يبلع قرص من لورنيكام 8 مجم اقراص سريعة الذوبان مع كميه مناسبه من السوائل. يتم تناول الاقراص فى جرعات من 8 مجم.",
+    "source_page": 35
+  },
+  {
+    "seed_key": "daktarin-oral-gel",
+    "trade_name": "Daktarin",
+    "form": "oral gel",
+    "pack": null,
+    "category": "antifungal",
+    "active_ingredients": [
+      {
+        "name": "miconazole nitrate",
+        "note": null
+      }
+    ],
+    "uses": "لعلاج فطريات الفم. لعلاج كانديدا الفم",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 37
+  },
+  {
+    "seed_key": "miconaz-oral-gel",
+    "trade_name": "Miconaz 2%",
+    "form": "oral gel",
+    "pack": "20 g",
+    "category": "antifungal",
+    "active_ingredients": [
+      {
+        "name": "miconazole nitrate",
+        "note": null
+      }
+    ],
+    "uses": "لعلاج فطريات الفم. لعلاج كانديدا الفم",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 37
+  },
+  {
+    "seed_key": "micoban-oral-gel",
+    "trade_name": "Micoban 2%",
+    "form": "oral gel",
+    "pack": "20 g",
+    "category": "antifungal",
+    "active_ingredients": [
+      {
+        "name": "miconazole nitrate",
+        "note": null
+      }
+    ],
+    "uses": "لعلاج فطريات الفم. لعلاج كانديدا الفم",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 37
+  },
+  {
+    "seed_key": "nystatin-oral-drops",
+    "trade_name": "Nystatin",
+    "form": "oral drops",
+    "pack": "30 ml",
+    "category": "antifungal",
+    "active_ingredients": [
+      {
+        "name": "nystatin",
+        "note": "Mechanism: nystatin binds to sterols in the fungal cell membrane, resulting in disturbances in cell membrane function as selective barrier; this leads to loss of essential cellular constituents"
+      }
+    ],
+    "uses": "لعلاج فطريات الفم. لعلاج كانديدا الفم",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 38
+  },
+  {
+    "seed_key": "fungistatin-oral-drops",
+    "trade_name": "Fungistatin",
+    "form": "oral drops",
+    "pack": "30 ml",
+    "category": "antifungal",
+    "active_ingredients": [
+      {
+        "name": "nystatin",
+        "note": "Mechanism: nystatin binds to sterols in the fungal cell membrane, resulting in disturbances in cell membrane function as selective barrier; this leads to loss of essential cellular constituents"
+      }
+    ],
+    "uses": "لعلاج فطريات الفم. لعلاج كانديدا الفم",
+    "warnings": null,
+    "suggested_dose": "كل 8 ساعات / 6 ساعات حسب الحالة او السن",
+    "source_page": 38
+  },
+  {
+    "seed_key": "mycostatin-oral-drops",
+    "trade_name": "Mycostatin",
+    "form": "oral drops",
+    "pack": "30 ml",
+    "category": "antifungal",
+    "active_ingredients": [
+      {
+        "name": "nystatin",
+        "note": "Mechanism: nystatin binds to sterols in the fungal cell membrane, resulting in disturbances in cell membrane function as selective barrier; this leads to loss of essential cellular constituents"
+      }
+    ],
+    "uses": "لعلاج فطريات الفم. لعلاج كانديدا الفم",
+    "warnings": null,
+    "suggested_dose": "كل 8 ساعات / 6 ساعات حسب الحالة او السن",
+    "source_page": 38
+  },
+  {
+    "seed_key": "hi-cal-syrup",
+    "trade_name": "Hi-Cal",
+    "form": "شراب",
+    "pack": "100 ml",
+    "category": "calcium",
+    "active_ingredients": [
+      {
+        "name": "calcium glubionate 1200 mg/5 ml",
+        "note": null
+      }
+    ],
+    "uses": "نقص الكالسيوم عند الاطفال الذى يودى الى تاخر ظهور الاسنان",
+    "warnings": null,
+    "suggested_dose": "مره واحده يوميا",
+    "source_page": 40
+  },
+  {
+    "seed_key": "golden-cal-syrup",
+    "trade_name": "Golden Cal",
+    "form": "شراب",
+    "pack": "100 ml",
+    "category": "calcium",
+    "active_ingredients": [
+      {
+        "name": "calcium",
+        "note": null
+      }
+    ],
+    "uses": "نقص الكالسيوم عند الاطفال الذى يودى الى تاخر ظهور الاسنان",
+    "warnings": null,
+    "suggested_dose": "مره واحده يوميا",
+    "source_page": 40
+  },
+  {
+    "seed_key": "calci-cal-syrup",
+    "trade_name": "Calci-Cal",
+    "form": "شراب",
+    "pack": null,
+    "category": "calcium",
+    "active_ingredients": [
+      {
+        "name": "calcium",
+        "note": null
+      }
+    ],
+    "uses": "نقص الكالسيوم عند الاطفال الذى يودى الى تاخر ظهور الاسنان",
+    "warnings": null,
+    "suggested_dose": "مره واحده يوميا",
+    "source_page": 40
+  },
+  {
+    "seed_key": "calcimate-500-caps",
+    "trade_name": "Calcimate 500",
+    "form": "كبسولات",
+    "pack": "12 caps",
+    "category": "calcium",
+    "active_ingredients": [
+      {
+        "name": "calcium carbonate 500 mg",
+        "note": null
+      }
+    ],
+    "uses": "نقص الكالسيوم اثناء النمو. للمساعده فى تكوين اسنان قويه",
+    "warnings": null,
+    "suggested_dose": "Adult: 500 mg 1-2 times after meals. Children: 250-500 mg daily",
+    "source_page": 41
+  },
+  {
+    "seed_key": "bone-cal-tabs",
+    "trade_name": "Bone-Cal",
+    "form": "أقراص",
+    "pack": "10 tabs",
+    "category": "calcium",
+    "active_ingredients": [
+      {
+        "name": "calcium 500 mg",
+        "note": null
+      }
+    ],
+    "uses": "نقص الكالسيوم اثناء النمو. للمساعده فى تكوين اسنان قويه",
+    "warnings": null,
+    "suggested_dose": "Adult: 500 mg 1-2 times after meals. Children: 250-500 mg daily",
+    "source_page": 41
+  },
+  {
+    "seed_key": "marcal-tabs",
+    "trade_name": "Marcal",
+    "form": "أقراص",
+    "pack": "30 tabs",
+    "category": "calcium",
+    "active_ingredients": [
+      {
+        "name": "calcium carbonate 700 mg",
+        "note": "= calcium 180 mg"
+      }
+    ],
+    "uses": "نقص الكالسيوم اثناء النمو. للمساعده فى تكوين اسنان قويه",
+    "warnings": null,
+    "suggested_dose": "Adult: 500 mg 1-2 times after meals. Children: 250-500 mg daily",
+    "source_page": 41
+  },
+  {
+    "seed_key": "seven-seas-caps",
+    "trade_name": "Seven Seas",
+    "form": "كبسولات",
+    "pack": "120 caps",
+    "category": "cod_liver_oil",
+    "active_ingredients": [
+      {
+        "name": "cod liver oil",
+        "note": null
+      }
+    ],
+    "uses": "مكمل غذائى يعتبر مصدر لفيتامين د. فيتامين «د» يساعد على ترسيب عنصر الكالسيوم في العظام والأسنان",
+    "warnings": null,
+    "suggested_dose": "1 cap, 1-2 times daily",
+    "source_page": 43
+  },
+  {
+    "seed_key": "ultranyl-caps",
+    "trade_name": "Ultranyl",
+    "form": "كبسولات",
+    "pack": "20 caps",
+    "category": "cod_liver_oil",
+    "active_ingredients": [
+      {
+        "name": "cod liver oil",
+        "note": null
+      },
+      {
+        "name": "vitamins A, D3, C",
+        "note": null
+      }
+    ],
+    "uses": "مكمل غذائى يعتبر مصدر لفيتامين د. فيتامين «د» يساعد على ترسيب عنصر الكالسيوم في العظام والأسنان",
+    "warnings": null,
+    "suggested_dose": "1 cap, 1-2 times daily",
+    "source_page": 43
+  },
+  {
+    "seed_key": "cod-liver-oil-caps",
+    "trade_name": "Cod liver oil",
+    "form": "كبسولات",
+    "pack": "20 caps",
+    "category": "cod_liver_oil",
+    "active_ingredients": [
+      {
+        "name": "cod liver oil",
+        "note": null
+      }
+    ],
+    "uses": "مكمل غذائى يعتبر مصدر لفيتامين د. فيتامين «د» يساعد على ترسيب عنصر الكالسيوم في العظام والأسنان",
+    "warnings": null,
+    "suggested_dose": "Adult: 1 cap, 1-2 times daily",
+    "source_page": 43
+  },
+  {
+    "seed_key": "forte-seas-caps",
+    "trade_name": "Forte Seas",
+    "form": "كبسولات",
+    "pack": "20 caps",
+    "category": "cod_liver_oil",
+    "active_ingredients": [
+      {
+        "name": "cod liver oil 100 mg",
+        "note": null
+      }
+    ],
+    "uses": "مكمل غذائى يعتبر مصدر لفيتامين د. فيتامين «د» يساعد على ترسيب عنصر الكالسيوم في العظام والأسنان",
+    "warnings": null,
+    "suggested_dose": "Adult: 1 cap, 1-2 times daily",
+    "source_page": 44
+  },
+  {
+    "seed_key": "high-seas-syrup",
+    "trade_name": "High Seas",
+    "form": "شراب",
+    "pack": "120 ml",
+    "category": "cod_liver_oil",
+    "active_ingredients": [
+      {
+        "name": "vitamin A",
+        "note": null
+      },
+      {
+        "name": "vitamin C",
+        "note": null
+      },
+      {
+        "name": "vitamin D",
+        "note": null
+      },
+      {
+        "name": "omega 3",
+        "note": null
+      },
+      {
+        "name": "EPA",
+        "note": null
+      },
+      {
+        "name": "DHA",
+        "note": null
+      }
+    ],
+    "uses": "مكمل غذائى يعتبر مصدر لفيتامين د. فيتامين «د» يساعد على ترسيب عنصر الكالسيوم في العظام والأسنان",
+    "warnings": null,
+    "suggested_dose": "2.5 : 5 ml, 2-3 times daily according to kids age",
+    "source_page": 44
+  },
+  {
+    "seed_key": "halorange-syrup",
+    "trade_name": "Halorange",
+    "form": "شراب",
+    "pack": "120 ml",
+    "category": "cod_liver_oil",
+    "active_ingredients": [
+      {
+        "name": "vitamin A 4600 IU",
+        "note": null
+      },
+      {
+        "name": "vitamin D 380 IU",
+        "note": null
+      },
+      {
+        "name": "vitamin C 52 mg",
+        "note": null
+      }
+    ],
+    "uses": "مكمل غذائى يعتبر مصدر لفيتامين د. فيتامين «د» يساعد على ترسيب عنصر الكالسيوم في العظام والأسنان",
+    "warnings": null,
+    "suggested_dose": "2.5 : 5 ml, 2-3 times daily according to kids age",
+    "source_page": 44
+  },
+  {
+    "seed_key": "lido-spray",
+    "trade_name": "Lido Spray",
+    "form": "بخاخ spray",
+    "pack": "10 ml",
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine HCl 40 mg",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 46
+  },
+  {
+    "seed_key": "lidocaine-spray",
+    "trade_name": "Lidocaine Spray",
+    "form": "بخاخ spray",
+    "pack": "15 ml",
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine 10%",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 46
+  },
+  {
+    "seed_key": "lidosine-ointment",
+    "trade_name": "Lidosine",
+    "form": "مرهم",
+    "pack": "20 g",
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine 5%",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 46
+  },
+  {
+    "seed_key": "lignocaine-gel",
+    "trade_name": "Lignocaine",
+    "form": "gel",
+    "pack": null,
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine 2%",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 47
+  },
+  {
+    "seed_key": "lignocaine-spray",
+    "trade_name": "Lignocaine",
+    "form": "بخاخ spray",
+    "pack": null,
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine 10%",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 47
+  },
+  {
+    "seed_key": "lignoral-spray",
+    "trade_name": "Lignoral",
+    "form": "بخاخ spray",
+    "pack": "15 ml",
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine 10%",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 48
+  },
+  {
+    "seed_key": "xylocaine-spray",
+    "trade_name": "Xylocaine",
+    "form": "بخاخ spray",
+    "pack": "50 ml",
+    "category": "local_anesthetic",
+    "active_ingredients": [
+      {
+        "name": "lidocaine 10%",
+        "note": null
+      }
+    ],
+    "uses": "كمخدر موضعى قبل الحقن او زرع الاسنان او قبل التخلص من الجير، او كمخدر موضعى فى عمليه الذل للجيب الفكى",
+    "warnings": null,
+    "suggested_dose": "فى علاج الاسنان: 1-5 بخات على الاغشية المخاطية - يبداء التاثير خلال 1-2 دقيقة",
+    "source_page": 48
+  },
+  {
+    "seed_key": "hydrocortisone-1-cream",
+    "trade_name": "Hydrocortisone 1%",
+    "form": "كريم",
+    "pack": "10 g",
+    "category": "other",
+    "active_ingredients": [
+      {
+        "name": "hydrocortisone",
+        "note": "هو من الستيرويدات القشريه وهو يعمل على خفض او منع الخلايا من الاستجابه للالتهابات عن طريق التغير فى الجهاز المناعى"
+      }
+    ],
+    "uses": "الحكه فى لشفتين والاكزيما فى الشفه او جانبها",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 50
+  },
+  {
+    "seed_key": "dentinox-teething-gel",
+    "trade_name": "Dentinox teething gel",
+    "form": "gel",
+    "pack": "10 g",
+    "category": "other",
+    "active_ingredients": [
+      {
+        "name": "lidocaine",
+        "note": "مخدر موضعي"
+      },
+      {
+        "name": "aminacrine",
+        "note": "A highly fluorescent anti-infective dye used clinically as a topical antiseptic and experimentally as a mutagen"
+      },
+      {
+        "name": "ethanol",
+        "note": "يستخدم كمادة مطهرة موضعية"
+      },
+      {
+        "name": "sucrose",
+        "note": "ماده سكريه لاضافه طعم حلو"
+      },
+      {
+        "name": "saccharine",
+        "note": "ماده سكريه لاضافه طعم حلو"
+      }
+    ],
+    "uses": "الم الاسنان اثناء التسنين",
+    "warnings": null,
+    "suggested_dose": "مرتين يوميا",
+    "source_page": 50
+  },
+  {
+    "seed_key": "acyclovir-5-cream",
+    "trade_name": "Acyclovir 5%",
+    "form": "cream",
+    "pack": "10 g",
+    "category": "other",
+    "active_ingredients": [
+      {
+        "name": "acyclovir",
+        "note": "أكثر المضادات الفيروسية شيوعاً، يستخدم بشكل خاص لعلاج عدوى فيروس الهربس البسيط"
+      }
+    ],
+    "uses": "يستخدم لعلاج عدوي الهربس التي تصيب الجلد، الفم، الإغشية المخاطية",
+    "warnings": null,
+    "suggested_dose": "اربع مرات يوميا",
+    "source_page": 50
+  },
+  {
+    "seed_key": "zovirax-5-cream",
+    "trade_name": "Zovirax 5%",
+    "form": "cream",
+    "pack": "30 g",
+    "category": "other",
+    "active_ingredients": [
+      {
+        "name": "acyclovir",
+        "note": "أكثر المضادات الفيروسية شيوعاً، يستخدم بشكل خاص لعلاج عدوى فيروس الهربس البسيط"
+      }
+    ],
+    "uses": "يستخدم لعلاج عدوي الهربس التي تصيب الجلد، الفم، الإغشية المخاطية",
+    "warnings": null,
+    "suggested_dose": "اربع مرات يوميا",
+    "source_page": 51
+  },
+  {
+    "seed_key": "myolgin-caps",
+    "trade_name": "Myolgin",
+    "form": "كبسولات",
+    "pack": "20 caps",
+    "category": "other",
+    "active_ingredients": [
+      {
+        "name": "chlorzoxazone",
+        "note": "الكلورزوكسازون هو من مُرخيات العضلات والهيكل العظمي التي تعمل مركزياً (centrally acting skeletal muscle relaxants)"
+      },
+      {
+        "name": "paracetamol",
+        "note": "مسكن واسع المجال وخافض للحراره"
+      }
+    ],
+    "uses": "باسط للعضلات في حاله الشد العظمى لعضلات الفك",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 51
+  },
+  {
+    "seed_key": "relax-massage-cream",
+    "trade_name": "Relax massage cream",
+    "form": "كريم",
+    "pack": null,
+    "category": "other",
+    "active_ingredients": [
+      {
+        "name": "peppermint oil",
+        "note": null
+      },
+      {
+        "name": "eucalyptus oil",
+        "note": null
+      },
+      {
+        "name": "thyme extract",
+        "note": null
+      }
+    ],
+    "uses": "لحالات الشد العضلى فى عضلات الفكين",
+    "warnings": null,
+    "suggested_dose": "ثلاث مرات يوميا",
+    "source_page": 51
+  }
+]

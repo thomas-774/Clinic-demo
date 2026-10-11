@@ -107,9 +107,10 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: no new tests for D-01; nothing new to test, so the existing suite is the check.
 
 ### D-02 Fake DB layer
-- [ ] `src/demo/db.js`: `load()`, `save()`, `reset()`, `nextId(table)`, simple `find/where/insert/update/remove` helpers, in-memory fallback.
-- [ ] `src/demo/seed.js`: deterministic seed relative to today (section 5).
-- [ ] Unit tests: seed is deterministic, reset works, blocked storage does not crash.
+- [x] `src/demo/db.js`: `load()`, `save()`, `reset()`, `nextId(table)`, simple `find/where/insert/update/remove` helpers, in-memory fallback.
+- [x] `src/demo/seed.js`: deterministic seed relative to today (section 5).
+- [x] Unit tests: seed is deterministic, reset works, blocked storage does not crash.
+- Note: the DB stores date-times as Cairo wall-clock strings (like MySQL in the source); `src/demo/clock.js` converts them to ISO with the Cairo offset. Rows are saved once per write request by the router, not by each helper. Besides the source's DemoSeeder data, the seed has today's evening bookings (or seen visits for slots already past) and 4 prescriptions instead of 2. Patient #1 never gets an upcoming booking, so the demo patient can book at once. The seed builds the same rows for the same moment (the PRNG is mulberry32, not PHP's mt_rand, so the rows differ from the source).
 
 ### D-03 Fake router and axios adapter
 - [ ] `src/demo/router.js`: `(method, url, params, body, headers) → { status, data, headers }` with path params, plus a helper to throw axios-style errors (`error.response.status/data`), so the existing error handling works unchanged.
