@@ -1,6 +1,7 @@
 import * as assistantArea from './handlers/assistant'
 import * as auth from './handlers/auth'
 import * as drugs from './handlers/doctor/drugs'
+import { exportVisit } from './handlers/doctor/exportVisit'
 import * as doctorPatients from './handlers/doctor/patients'
 import * as prescriptions from './handlers/doctor/prescriptions'
 import * as reports from './handlers/doctor/reports'
@@ -51,6 +52,7 @@ export const routes = [
   doctor('POST', '/visits', doctorVisits.store),
   doctor('PUT', '/visits/:visit', doctorVisits.update),
   doctor('POST', '/visits/:visit/payments', doctorVisits.storePayment),
+  doctor('GET', '/visits/:visit/export', exportVisit),
 
   doctor('GET', '/patients/:patient/prescriptions', prescriptions.index),
   doctor('POST', '/patients/:patient/prescriptions', prescriptions.store),

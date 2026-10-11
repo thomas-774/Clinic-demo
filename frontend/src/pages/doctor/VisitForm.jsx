@@ -9,7 +9,7 @@ import TextAreaField from '../../components/form/TextAreaField'
 import { usePatient } from '../../hooks/usePatient'
 import { useSchedule } from '../../hooks/useSchedule'
 import { useLinkPrescriptions } from '../../hooks/usePrescriptions'
-import { useCreateVisit, useVisitExport } from '../../hooks/useVisits'
+import { useCreateVisit, useVisitExport, VISIT_FILE_FORMATS } from '../../hooks/useVisits'
 import { useToast } from '../../toast/useToast'
 import { errorMessage, fieldErrors } from '../../utils/apiErrors'
 import { formatDate, formatMoney, formatTime, todayInClinic } from '../../utils/format'
@@ -52,7 +52,7 @@ function useVisitContext() {
 }
 
 const FILE_KEY = 'clinic.visitFile'
-const FILE_CHOICES = ['none', 'pdf', 'docx']
+const FILE_CHOICES = ['none', ...VISIT_FILE_FORMATS]
 
 /** "Also save as" (FR-K.1), remembered on this computer; storage can throw, so fall back to None. */
 function useFileChoice() {

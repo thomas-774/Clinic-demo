@@ -149,8 +149,9 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: the bar sits in `SidebarLayout` and `PatientLayout` (not on the print-only prescription page, which has no menus by design, RX-4). Switching role logs in as that role's demo account and clears the query cache. Reset re-seeds and gives the current token back to the role's demo account, so open requests never get a 401. Checked with headless Chrome at 360 px and 1280 px in English and Arabic (RTL); the bar is two rows on phones and one row from `sm` up. The demo account constants moved to `src/demo/accounts.js` so the login page does not pull in the seed. Tests turn `DEMO_MODE` on with `vi.mock`.
 
 ### D-10 Visit export and other browser-only bits
-- [ ] Visit export `pdf` → print view; `docx` hidden or a "not in demo" toast (section 2).
-- [ ] Remove or neutralize anything that still needs a server (check `warmStart`, Status page, CSP/meta tags pointing at an API URL).
+- [x] Visit export `pdf` → print view; `docx` hidden or a "not in demo" toast (section 2).
+- [x] Remove or neutralize anything that still needs a server (check `warmStart`, Status page, CSP/meta tags pointing at an API URL).
+- Note: `pdf` returns a printable HTML report (a port of VisitReportService and reports/visit.blade.php, styled by `public/visit-report.css` because the page's CSP allows no inline style). The app prints it from a hidden iframe (no pop-up needed after the request), so the browser's "Save as PDF" makes the file, and a toast says so. Word is hidden in demo mode (`VISIT_FILE_FORMATS`); the route answers 422 "Not available in the demo" if asked anyway. `warmStart` and the Status page already go through the API client, so they work against the fake backend; the Status page also shows the demo note. index.html has no CSP meta or API URL. Checked both languages' reports in headless Chrome.
 
 ### D-11 Tests and quality gate
 - [ ] Update existing Vitest tests that mocked axios so they still pass (or run against the fake backend).

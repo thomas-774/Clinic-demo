@@ -1,0 +1,33 @@
+/* The demo's visit report (src/demo/visitReport.js), printed by the browser.
+   Same layout as the source app's reports/visit.blade.php. A file, not an
+   inline <style>, because the page's Content-Security-Policy allows only 'self'. */
+@page { size: A4; margin: 15mm 15mm 20mm; }
+body { font-family: "Cairo Variable", Cairo, "Segoe UI", Tahoma, Arial, sans-serif; font-size: 10.5pt; color: #000; line-height: 1.45; margin: 0; }
+.start { text-align: left; }
+html[dir="rtl"] .start { text-align: right; }
+.end { text-align: right; }
+html[dir="rtl"] .end { text-align: left; }
+.center { text-align: center; }
+.header { border-bottom: 0.4mm solid #000; padding-bottom: 2mm; margin-bottom: 4mm; }
+.clinic { font-size: 16pt; font-weight: bold; }
+.doctor { font-size: 11.5pt; font-weight: bold; }
+.muted { font-size: 9.5pt; }
+h1 { font-size: 15pt; font-weight: bold; margin: 0 0 3mm; }
+h2 { font-size: 11.5pt; font-weight: bold; margin: 5mm 0 1.5mm; }
+table { border-collapse: collapse; width: 100%; }
+td, th { padding: 1.2mm 2mm; vertical-align: top; }
+.info td.label { font-weight: bold; width: 34mm; }
+.grid th { font-weight: bold; border-bottom: 0.3mm solid #000; }
+.grid td { border-bottom: 0.1mm solid #999; }
+.grid tr { page-break-inside: avoid; }
+.grid thead { display: table-header-group; }
+.grid .number { width: 8mm; }
+.money td { border: 0.3mm solid #000; width: 33.3%; text-align: center; padding: 2.5mm 2mm; }
+.money .amount { font-size: 12.5pt; }
+.due { color: #c00000; }
+.bold { font-weight: bold; }
+.work { border: 0.1mm solid #999; padding: 2.5mm 3mm; }
+.outstanding { margin-top: 4mm; }
+.rx-date { margin: 1mm 0; }
+.signature td { padding-top: 14mm; }
+@media screen { body { max-width: 180mm; margin: 10mm auto; padding: 0 5mm; } }

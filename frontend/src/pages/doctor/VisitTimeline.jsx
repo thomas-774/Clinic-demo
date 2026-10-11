@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import PaymentStatusBadge from '../../components/PaymentStatusBadge'
-import { useVisitExport } from '../../hooks/useVisits'
+import { useVisitExport, VISIT_FILE_FORMATS } from '../../hooks/useVisits'
 import { formatDate, formatMoney, formatTime } from '../../utils/format'
 
 const smallButton = 'rounded-md px-2 py-1 text-xs font-semibold hover:bg-slate-100'
@@ -25,7 +25,7 @@ function VisitFileButtons({ visit }) {
   const exportFile = useVisitExport()
   const date = formatDate(visit.visit_date)
 
-  return ['pdf', 'docx'].map((format) => {
+  return VISIT_FILE_FORMATS.map((format) => {
     const busy = exportFile.isPending && exportFile.variables?.format === format
     return (
       <button

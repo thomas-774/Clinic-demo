@@ -750,6 +750,7 @@
     "resetMessage": "Everything changed in this browser is replaced with the original demo data.",
     "resetConfirm": "Reset",
     "resetDone": "The demo data is back to the start.",
-    "notAvailable": "Not available in the demo"
+    "notAvailable": "Not available in the demo",
+    "printOpened": "The print view is open: choose “Save as PDF” to keep the file."
   }
 }

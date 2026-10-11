@@ -31,6 +31,7 @@ export default function Status() {
           <>
             <p className="mt-1 text-lg font-semibold text-green-700">{data.status}</p>
             <p className="text-sm text-slate-500">{t('status.serverTime', { time: data.time })}</p>
+            {data.demo && <p className="mt-3 rounded-lg bg-amber-50 px-3 py-2 text-sm text-amber-900">{t('demo.note')}</p>}
           </>
         )}
       </div>

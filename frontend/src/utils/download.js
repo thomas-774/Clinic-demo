@@ -20,6 +20,35 @@ export function saveBlob(blob, fileName) {
 }
 
 /**
+ * Opens the browser's print dialog for an HTML document (the demo's visit
+ * report, which the browser can save as PDF). It is printed from a hidden
+ * frame, so no pop-up is needed after the request; the frame goes once printing is done.
+ */
+export function printHtml(html) {
+  const frame = document.createElement('iframe')
+  frame.setAttribute('aria-hidden', 'true')
+  frame.tabIndex = -1
+  frame.className = 'fixed bottom-0 end-0 h-0 w-0 border-0'
+  document.body.appendChild(frame)
+  const view = frame.contentWindow
+  let printed = false
+  const print = () => {
+    if (printed) return
+    printed = true
+    view.focus()
+    view.print()
+  }
+  view.addEventListener('afterprint', () => setTimeout(() => frame.remove(), 0))
+  // Printed when its stylesheet has loaded, or after a short wait at the latest.
+  view.addEventListener('load', print)
+  setTimeout(print, 1500)
+  view.document.open()
+  view.document.write(html)
+  view.document.close()
+  return frame
+}
+
+/**
  * The file name from a `Content-Disposition` header, e.g. `attachment; filename="visit-2026-10-07-88.pdf"`.
  * Prefers RFC 5987 `filename*=UTF-8''…`; returns `fallback` when the header is missing or has no name.
  */
