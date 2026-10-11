@@ -127,7 +127,8 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: Vitest runs with `VITE_DEMO=false` (`vite.config.js`), so the source app's own tests keep mocking the API as before; the demo backend's tests switch the client to the demo adapter in `src/test/demo.js`.
 
 ### D-05 Slots, booking and schedules (all roles)
-- [ ] `/slots`, doctor and assistant appointments, status changes, blocked times, working hours, patient booking and cancel. Tests: 409 on a taken slot, Cairo dates, no past slots.
+- [x] `/slots`, doctor and assistant appointments, status changes, blocked times, working hours, patient booking and cancel. Tests: 409 on a taken slot, Cairo dates, no past slots.
+- Note: slots, booking and status rules are in `src/demo/services/{slots,appointments}.js`; the handlers for all three roles are in `src/demo/handlers/schedule.js`. Times are compared as Cairo wall-clock strings; the cancel cut-off is compared as instants. The tests pin the clock with `vi.setSystemTime` (only `Date` is faked).
 
 ### D-06 Prescriptions and drugs
 - [ ] Routes and PrescriptionService rules; drug search.

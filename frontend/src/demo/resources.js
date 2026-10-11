@@ -1,5 +1,6 @@
 import { toIso } from './clock'
 import * as db from './db'
+import { patientCanCancel } from './services/appointments'
 import * as payments from './services/payments'
 
 /**
@@ -105,6 +106,38 @@ export function patientDetail(row) {
     prescriptions_count: db.where('prescriptions', { patient_id: row.id }).length,
   }
 }
+
+/**
+ * AppointmentResource. `can_cancel` only for a patient user; `patient` only
+ * when the endpoint loads it (the schedules and staff bookings do).
+ */
+export function appointment(row, { forPatient = false, cutoffHours = 2, withPatient = false } = {}) {
+  const out = {
+    id: row.id,
+    start_at: toIso(row.start_at),
+    end_at: toIso(row.end_at),
+    status: row.status,
+    checked_in_at: toIso(row.checked_in_at),
+    cancelled_at: toIso(row.cancelled_at),
+  }
+  if (forPatient) out.can_cancel = patientCanCancel(row, cutoffHours)
+  if (withPatient) {
+    const patientRow = db.find('patients', row.patient_id)
+    const account = userOf(patientRow)
+    out.patient = { id: patientRow.id, name: account.name, phone: account.phone }
+  }
+  return out
+}
+
+/** BlockedTimeResource */
+export const blockedTime = (row) => ({
+  id: row.id,
+  date: row.date,
+  whole_day: row.start_time === null && row.end_time === null,
+  start_time: row.start_time ? row.start_time.slice(0, 5) : null,
+  end_time: row.end_time ? row.end_time.slice(0, 5) : null,
+  reason: row.reason,
+})
 
 /** AssistantVisitResource; `withPatient` / `withPayments` follow what the endpoint loads. */
 export function assistantVisit(row, { withPatient = false, withPayments = false } = {}) {
