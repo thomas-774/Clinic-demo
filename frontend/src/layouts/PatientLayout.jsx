@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { DEMO_MODE } from '../api/client'
 import { useAuth } from '../auth/useAuth'
 import ErrorBoundary from '../components/ErrorBoundary'
+import DemoBar from '../demo/ui/DemoBar'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import LogoutButton from './LogoutButton'
 import SkipLink from './SkipLink'
@@ -21,6 +23,7 @@ export default function PatientLayout() {
   return (
     <div className="min-h-screen bg-slate-50">
       <SkipLink />
+      {DEMO_MODE && <DemoBar />}
       <header className="border-b border-slate-200 bg-white">
         <div className="mx-auto flex max-w-5xl flex-wrap items-center gap-x-3 gap-y-2 px-4 py-2 sm:py-3">
           <span className="text-lg font-bold text-sky-700">{t('common.appName')}</span>

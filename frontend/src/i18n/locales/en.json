@@ -726,5 +726,30 @@
   },
   "a11y": {
     "skipToContent": "Skip to content"
+  },
+  "demo": {
+    "badge": "Demo",
+    "note": "Demo, data is saved only in this browser.",
+    "tryAs": "Try the demo",
+    "enterAs": {
+      "doctor": "Enter as Doctor",
+      "patient": "Enter as Patient",
+      "assistant": "Enter as Assistant"
+    },
+    "entering": "Opening…",
+    "orLogIn": "or log in with a phone number",
+    "roles": {
+      "doctor": "Doctor",
+      "patient": "Patient",
+      "assistant": "Assistant"
+    },
+    "viewingAs": "Viewing as {{role}}",
+    "switchRole": "Switch role",
+    "reset": "Reset demo data",
+    "resetTitle": "Reset the demo data?",
+    "resetMessage": "Everything changed in this browser is replaced with the original demo data.",
+    "resetConfirm": "Reset",
+    "resetDone": "The demo data is back to the start.",
+    "notAvailable": "Not available in the demo"
   }
 }

@@ -143,9 +143,10 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: `src/demo/permissions.test.js` walks the real route table: every /doctor, /assistant and /patient route answers 403 to the other two roles (with ids that do not exist, so the role check comes before the lookup) and 401 without a token. The visit export route joins the table in D-10.
 
 ### D-09 Role buttons and demo bar
-- [ ] Login page: three big buttons **Enter as Doctor / Patient / Assistant** (ar + en text; add keys to **both** `ar.json` and `en.json`, which must have identical keys) that log in instantly and go to that role's home page. Normal login and register still work.
-- [ ] A slim **Demo** bar on every logged-in page: current role, **Switch role** (Doctor / Patient / Assistant), **Reset demo data** (with a confirm step). Works in RTL, at 360 px, and passes `npm run check:contrast`.
-- [ ] A small note on the login page: "Demo, data is saved only in this browser."
+- [x] Login page: three big buttons **Enter as Doctor / Patient / Assistant** (ar + en text; add keys to **both** `ar.json` and `en.json`, which must have identical keys) that log in instantly and go to that role's home page. Normal login and register still work.
+- [x] A slim **Demo** bar on every logged-in page: current role, **Switch role** (Doctor / Patient / Assistant), **Reset demo data** (with a confirm step). Works in RTL, at 360 px, and passes `npm run check:contrast`.
+- [x] A small note on the login page: "Demo, data is saved only in this browser."
+- Note: the bar sits in `SidebarLayout` and `PatientLayout` (not on the print-only prescription page, which has no menus by design, RX-4). Switching role logs in as that role's demo account and clears the query cache. Reset re-seeds and gives the current token back to the role's demo account, so open requests never get a 401. Checked with headless Chrome at 360 px and 1280 px in English and Arabic (RTL); the bar is two rows on phones and one row from `sm` up. The demo account constants moved to `src/demo/accounts.js` so the login page does not pull in the seed. Tests turn `DEMO_MODE` on with `vi.mock`.
 
 ### D-10 Visit export and other browser-only bits
 - [ ] Visit export `pdf` → print view; `docx` hidden or a "not in demo" toast (section 2).

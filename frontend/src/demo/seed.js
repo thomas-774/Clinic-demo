@@ -1,3 +1,4 @@
+import { DEMO_ACCOUNTS, DEMO_PASSWORD } from './accounts'
 import { addDays, addMinutes, dayOfWeek, nowLocal, subMonths, subYears, timeToMinutes, today } from './clock'
 import drugCatalogue from './data/drugs.json'
 import { createRandom } from './random'
@@ -29,14 +30,7 @@ export const TABLES = [
   'audit_logs',
 ]
 
-export const DEMO_PASSWORD = 'password'
-
-/** The accounts behind the "Enter as …" buttons. */
-export const DEMO_ACCOUNTS = {
-  doctor: '01000000000',
-  assistant: '01100000000',
-  patient: '01020000001',
-}
+export { DEMO_ACCOUNTS, DEMO_PASSWORD }
 
 const RANDOM_SEED = 2026
 const PATIENTS = 30

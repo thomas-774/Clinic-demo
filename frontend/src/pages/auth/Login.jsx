@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import { DEMO_MODE } from '../../api/client'
 import { useAuth } from '../../auth/useAuth'
 import PasswordField from '../../components/form/PasswordField'
 import TextField from '../../components/form/TextField'
 import AuthLayout from '../../layouts/AuthLayout'
 import { errorMessage, fieldErrors } from '../../utils/apiErrors'
 import Form from '../../components/form/Form'
+import DemoRoleButtons from '../../demo/ui/DemoRoleButtons'
 
 export default function Login() {
   const { t } = useTranslation()
@@ -48,6 +50,7 @@ export default function Login() {
         </>
       }
     >
+      {DEMO_MODE && <DemoRoleButtons />}
       <Form onSubmit={handleSubmit} className="space-y-4">
         {formError && (
           <p role="alert" className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">
