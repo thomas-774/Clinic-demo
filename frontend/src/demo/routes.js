@@ -1,5 +1,7 @@
 import * as auth from './handlers/auth'
+import * as drugs from './handlers/doctor/drugs'
 import * as doctorPatients from './handlers/doctor/patients'
+import * as prescriptions from './handlers/doctor/prescriptions'
 import * as doctorVisits from './handlers/doctor/visits'
 import * as schedule from './handlers/schedule'
 
@@ -43,6 +45,19 @@ export const routes = [
   doctor('POST', '/visits', doctorVisits.store),
   doctor('PUT', '/visits/:visit', doctorVisits.update),
   doctor('POST', '/visits/:visit/payments', doctorVisits.storePayment),
+
+  doctor('GET', '/patients/:patient/prescriptions', prescriptions.index),
+  doctor('POST', '/patients/:patient/prescriptions', prescriptions.store),
+  doctor('GET', '/prescriptions/:prescription', prescriptions.show),
+  doctor('PUT', '/prescriptions/:prescription', prescriptions.update),
+  doctor('DELETE', '/prescriptions/:prescription', prescriptions.destroy),
+
+  // /drugs/search before /drugs/:drug, like the source's route order.
+  doctor('GET', '/drugs/search', drugs.search),
+  doctor('GET', '/drugs', drugs.index),
+  doctor('POST', '/drugs', drugs.store),
+  doctor('GET', '/drugs/:drug', drugs.show),
+  doctor('PUT', '/drugs/:drug', drugs.update),
 
   doctor('GET', '/working-hours', schedule.hoursIndex),
   doctor('PUT', '/working-hours', schedule.hoursUpdate),

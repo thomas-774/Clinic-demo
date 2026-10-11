@@ -139,6 +139,88 @@ export const blockedTime = (row) => ({
   reason: row.reason,
 })
 
+/** DrugResource */
+export const drug = (row) => ({
+  id: row.id,
+  trade_name: row.trade_name,
+  form: row.form,
+  pack: row.pack,
+  category: row.category,
+  active_ingredients: row.active_ingredients,
+  uses: row.uses,
+  warnings: row.warnings,
+  suggested_dose: row.suggested_dose,
+  source_page: row.source_page,
+  is_active: row.is_active,
+})
+
+/** DrugSuggestionResource: short_use is the first line of `uses`. */
+export const drugSuggestion = (row) => ({
+  id: row.id,
+  trade_name: row.trade_name,
+  form: row.form,
+  pack: row.pack,
+  category: row.category,
+  short_use: String(row.uses ?? '').split(/\r?\n/)[0].trim(),
+})
+
+/** A prescription's lines in print order. */
+export const itemsOf = (prescription) =>
+  db.where('prescription_items', { prescription_id: prescription.id }).sort((a, b) => a.position - b.position)
+
+/** PrescriptionListItemResource */
+export const prescriptionListItem = (row) => ({
+  id: row.id,
+  issued_on: row.issued_on,
+  visit_id: row.visit_id,
+  notes: row.notes,
+  drug_names: itemsOf(row).map((item) => item.drug_name),
+})
+
+/** Whole years from `from` to `to` ("YYYY-MM-DD"), like Carbon's diffInYears. */
+export function yearsBetween(from, to) {
+  const [fy, fm, fd] = from.split('-').map(Number)
+  const [ty, tm, td] = to.split('-').map(Number)
+  return ty - fy - (tm < fm || (tm === fm && td < fd) ? 1 : 0)
+}
+
+/** PrescriptionResource: the lines, the patient's name and age on the day, and the print header (FR-J.5). */
+export function prescription(row) {
+  const patientRow = db.find('patients', row.patient_id)
+  const doctor = db.find('users', row.doctor_id)
+  const settings = db.first('doctor_settings', { doctor_id: doctor.id }) ?? { prescription_paper: 'A5' }
+  return {
+    id: row.id,
+    patient_id: row.patient_id,
+    visit_id: row.visit_id,
+    issued_on: row.issued_on,
+    notes: row.notes,
+    items: itemsOf(row).map((item) => ({
+      id: item.id,
+      position: item.position,
+      drug_id: item.drug_id,
+      drug_name: item.drug_name,
+      drug_form: item.drug_form,
+      instructions: item.instructions,
+    })),
+    patient: {
+      id: patientRow.id,
+      name: userOf(patientRow).name,
+      // Age on the day the prescription was issued; null without a date of birth.
+      age: patientRow.date_of_birth ? yearsBetween(patientRow.date_of_birth, row.issued_on) : null,
+    },
+    print: {
+      doctor_name: doctor.name,
+      doctor_title: settings.doctor_title ?? null,
+      clinic_name: settings.clinic_name ?? null,
+      clinic_address: settings.clinic_address ?? null,
+      clinic_phone: settings.clinic_phone ?? null,
+      footer: settings.prescription_footer ?? null,
+      paper: settings.prescription_paper ?? 'A5',
+    },
+  }
+}
+
 /** AssistantVisitResource; `withPatient` / `withPayments` follow what the endpoint loads. */
 export function assistantVisit(row, { withPatient = false, withPayments = false } = {}) {
   const out = {

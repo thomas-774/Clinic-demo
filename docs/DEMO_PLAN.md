@@ -131,7 +131,8 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: slots, booking and status rules are in `src/demo/services/{slots,appointments}.js`; the handlers for all three roles are in `src/demo/handlers/schedule.js`. Times are compared as Cairo wall-clock strings; the cancel cut-off is compared as instants. The tests pin the clock with `vi.setSystemTime` (only `Date` is faked).
 
 ### D-06 Prescriptions and drugs
-- [ ] Routes and PrescriptionService rules; drug search.
+- [x] Routes and PrescriptionService rules; drug search.
+- Note: also covers `GET /doctor/drugs` (Settings → Drugs list, 20 per page, search / category / include_hidden), which the section 3 list missed. As in the source, the old lines of an edited prescription are removed without audit rows, and each new line is audited as created.
 
 ### D-07 Reports, settings, staff, audit logs
 - [ ] ReportService by visit date; settings; staff CRUD; audit log entries written by the other handlers. Tests for summary and daily revenue.
