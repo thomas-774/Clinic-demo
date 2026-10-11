@@ -119,9 +119,12 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - [x] Auth handlers: login, register, logout, `/me`; tokens are fake strings mapped to user ids in the DB.
 - [x] `/health`.
 - **Done when:** login as each role works and `/me` returns the right user.
+- Note: the router also applies TrimStrings / ConvertEmptyStringsToNull, picks the language from Accept-Language (Arabic by default), checks the role before looking up records (403 before 404), answers 405 for a wrong method, and runs every write in a transaction (`db.transaction`), so a failed request changes nothing. Validation is a small port of Laravel's validator (`src/demo/validate.js`) using the source's `backend/lang` files, exported to `src/demo/data/lang.json`. The backend is a lazy chunk (`import('./router')`) and the fake delay is 0 in tests. `/health` returns `{ status, time, demo: true }`.
 
 ### D-04 Doctor: patients, history, visits, payments
-- [ ] Routes and rules from section 3/4 (PaymentService). Tests for remaining balance in piastres.
+- [x] Routes and rules from section 3/4 (PaymentService). Tests for remaining balance in piastres.
+- Note: writes on patients, history entries, visits and payments go through `src/demo/audit.js` (the Auditable trait), and a doctor's patient read is audited as `viewed`. Patient names sort with `Intl.Collator('en')` (Latin before Arabic, like MySQL). The export route is left for D-10.
+- Note: Vitest runs with `VITE_DEMO=false` (`vite.config.js`), so the source app's own tests keep mocking the API as before; the demo backend's tests switch the client to the demo adapter in `src/test/demo.js`.
 
 ### D-05 Slots, booking and schedules (all roles)
 - [ ] `/slots`, doctor and assistant appointments, status changes, blocked times, working hours, patient booking and cancel. Tests: 409 on a taken slot, Cairo dates, no past slots.

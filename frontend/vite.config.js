@@ -41,6 +41,8 @@ export default defineConfig(({ mode }) => ({
     globals: true,
     pool: 'threads', // the default forks pool times out on Windows paths containing spaces
     testTimeout: 15000, // a few heavy form tests pass alone but exceed 5 s with 4 workers in parallel
+    // The app's own tests mock the API as in the source repo; the demo backend's tests opt in (src/test/demo.js).
+    env: { VITE_DEMO: 'false' },
     setupFiles: './src/test/setup.js',
     // NFR-Q.2 (T11-11): `npm run test:coverage` fails under these numbers.
     coverage: {

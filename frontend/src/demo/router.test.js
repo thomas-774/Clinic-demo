@@ -1,25 +1,15 @@
 import i18next from 'i18next'
 import { beforeEach, describe, expect, it } from 'vitest'
 import * as authApi from '../api/auth'
-import client, { setUnauthorizedHandler, tokenStorage } from '../api/client'
+import client, { tokenStorage } from '../api/client'
 import { getHealth } from '../api/health'
 import { apiPath } from './adapter'
 import * as db from './db'
 import { handle } from './router'
 import { DEMO_ACCOUNTS, DEMO_PASSWORD } from './seed'
+import { loginAs, resetDemo } from '../test/demo'
 
-beforeEach(() => {
-  setUnauthorizedHandler(() => {})
-  localStorage.clear()
-  db.unload()
-  db.reset()
-})
-
-const loginAs = async (role) => {
-  const { token, user } = await authApi.login({ login: DEMO_ACCOUNTS[role], password: DEMO_PASSWORD })
-  tokenStorage.set(token)
-  return user
-}
+beforeEach(resetDemo)
 
 describe('adapter', () => {
   it('finds the API path with or without a base URL', () => {
