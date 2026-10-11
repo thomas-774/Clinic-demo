@@ -10,7 +10,9 @@
 //     in its dialogs fails the run (the browser's own extensions excepted).
 // The app is the production build served by `vite preview`; every API call is
 // answered from fixtures.json (captured from the fake PerformanceSeeder data)
-// inside the browser, so no backend and no real account is involved.
+// inside the browser, so no backend and no real account is involved. The build
+// turns the demo backend off (VITE_DEMO=false) so the calls reach the network
+// layer that this script answers.
 // T7-03 network states, same pages, both languages:
 //   --api=offline  only /me answers; every other call fails as if the
 //                  connection dropped. Each page that asks the API must show
@@ -129,7 +131,7 @@ export async function waitFor(check, timeout = 15000) {
 async function main() {
   // A production build whose API is the preview origin: same-origin calls, answered below.
   if (args.build !== 'no') {
-    const built = spawnSync('npx vite build --outDir dist-a11y', { cwd: root, shell: true, stdio: 'inherit', env: { ...process.env, VITE_API_URL: `${ORIGIN}/api/v1` } })
+    const built = spawnSync('npx vite build --outDir dist-a11y', { cwd: root, shell: true, stdio: 'inherit', env: { ...process.env, VITE_API_URL: `${ORIGIN}/api/v1`, VITE_DEMO: 'false' } })
     if (built.status !== 0) throw new Error('vite build failed')
   }
   const preview = spawn(`npx vite preview --port ${PORT} --strictPort --outDir dist-a11y`, { cwd: root, shell: true, stdio: 'ignore' })

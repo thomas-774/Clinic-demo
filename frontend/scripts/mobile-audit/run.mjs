@@ -139,7 +139,7 @@ const LAYOUT_CHECK = `(() => {
 
 async function main() {
   if (args.build !== 'no') {
-    const built = spawnSync('npx vite build --outDir dist-mobile', { cwd: root, shell: true, stdio: 'inherit', env: { ...process.env, VITE_API_URL: `${ORIGIN}/api/v1` } })
+    const built = spawnSync('npx vite build --outDir dist-mobile', { cwd: root, shell: true, stdio: 'inherit', env: { ...process.env, VITE_API_URL: `${ORIGIN}/api/v1`, VITE_DEMO: 'false' } })
     if (built.status !== 0) throw new Error('vite build failed')
   }
   mkdirSync(OUT, { recursive: true })

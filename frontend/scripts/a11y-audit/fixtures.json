@@ -8490,5 +8490,5 @@
             "time": "2026-10-07T14:48:27+03:00"
         }
     },
-    "note": "Captured 2026-10-07 from the PerformanceSeeder dataset (fake people) through the API; the outstanding list is cut to 25 rows. Regenerate with dump-fixtures.php."
+    "note": "Captured 2026-10-07 from the PerformanceSeeder dataset (fake people) through the API; the outstanding list is cut to 25 rows. Regenerate it in the source app with its frontend/scripts/a11y-audit/dump-fixtures.php."
 }

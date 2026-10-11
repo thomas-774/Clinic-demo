@@ -154,9 +154,10 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: `pdf` returns a printable HTML report (a port of VisitReportService and reports/visit.blade.php, styled by `public/visit-report.css` because the page's CSP allows no inline style). The app prints it from a hidden iframe (no pop-up needed after the request), so the browser's "Save as PDF" makes the file, and a toast says so. Word is hidden in demo mode (`VISIT_FILE_FORMATS`); the route answers 422 "Not available in the demo" if asked anyway. `warmStart` and the Status page already go through the API client, so they work against the fake backend; the Status page also shows the demo note. index.html has no CSP meta or API URL. Checked both languages' reports in headless Chrome.
 
 ### D-11 Tests and quality gate
-- [ ] Update existing Vitest tests that mocked axios so they still pass (or run against the fake backend).
-- [ ] `npm run lint` (0 warnings), `npx vitest run --maxWorkers=4`, `npm run build` all green.
-- [ ] Drop scripts that only make sense with the real API, or adapt them (a11y/mobile audits are optional).
+- [x] Update existing Vitest tests that mocked axios so they still pass (or run against the fake backend).
+- [x] `npm run lint` (0 warnings), `npx vitest run --maxWorkers=4`, `npm run build` all green.
+- [x] Drop scripts that only make sense with the real API, or adapt them (a11y/mobile audits are optional).
+- Note: nothing in the source's tests needed changing: Vitest runs them with `VITE_DEMO=false` (since D-04), so they mock axios as before, while the demo backend has its own tests (`src/demo/**`). `npm run check` (lint, contrast, coverage thresholds, build, bundle budget, npm audit) is green; coverage is 97 % of lines. The a11y and mobile audits now build with `VITE_DEMO=false` so their in-browser fixtures still answer the API (`npm run a11y:audit -- --only=login` passes). `dump-fixtures.php`, which runs only inside the Laravel app, was dropped.
 
 ### D-12 Vercel
 - [ ] `vercel.json` at the repo root (or in `frontend/`, with the Vercel root set to `frontend`):

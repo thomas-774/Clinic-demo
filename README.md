@@ -34,6 +34,10 @@ npm run build
 npm run check:contrast
 ```
 
+`npm run check` runs all of them plus coverage, the bundle budget and `npm audit`. The app's own tests mock the API as in the source repo (Vitest sets `VITE_DEMO=false`); the fake backend's tests live next to it in `src/demo/` and switch the client to it through `src/test/demo.js`.
+
+The optional browser audits (`npm run a11y:audit`, `npm run mobile:audit`) build with `VITE_DEMO=false` and answer the API from recorded fixtures, as in the source repo.
+
 ## Deploy
 
 The site is plain static files (`frontend/dist`) and needs no environment variables. On Vercel: import the repo and set the Root Directory to `frontend`.
