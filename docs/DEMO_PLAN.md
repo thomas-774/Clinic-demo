@@ -135,7 +135,8 @@ Do them in order. One branch and one commit per task (see `CLAUDE.md` for the wo
 - Note: also covers `GET /doctor/drugs` (Settings → Drugs list, 20 per page, search / category / include_hidden), which the section 3 list missed. As in the source, the old lines of an edited prescription are removed without audit rows, and each new line is audited as created.
 
 ### D-07 Reports, settings, staff, audit logs
-- [ ] ReportService by visit date; settings; staff CRUD; audit log entries written by the other handlers. Tests for summary and daily revenue.
+- [x] ReportService by visit date; settings; staff CRUD; audit log entries written by the other handlers. Tests for summary and daily revenue.
+- Note: reports are in `src/demo/services/reports.js` (revenue = all payments of the visits dated in the period, in piastres; visits = completed-appointment visits plus walk-ins). Audit rows come from the D-04 and D-06 handlers through `src/demo/audit.js`; the seed itself has none (like the source's DemoSeeder), so Activity starts empty until something is changed.
 
 ### D-08 Assistant and patient areas
 - [ ] Remaining assistant and patient routes; role checks (403) on every route, with a table-driven test like the source's permissions test.

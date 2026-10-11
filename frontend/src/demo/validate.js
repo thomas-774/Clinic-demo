@@ -87,6 +87,7 @@ function isDateString(value) {
 function matchesFormat(value, format) {
   if (typeof value !== 'string') return false
   if (format === 'Y-m-d') return isDateString(value)
+  if (format === 'Y-m') return /^\d{4}-(0[1-9]|1[0-2])$/.test(value)
   if (format === 'H:i') {
     const match = /^(\d{2}):(\d{2})$/.exec(value)
     return Boolean(match) && Number(match[1]) < 24 && Number(match[2]) < 60
